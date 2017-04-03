@@ -1,0 +1,126 @@
+package com.itobuz.android.easybmicalculator;
+
+import java.text.DecimalFormat;
+
+/**
+ * Created by Debasis on 21-10-2016.
+ */
+
+public class BmiHelper {
+    /**
+     *
+     * @param value double that is formatted
+     * @return double that has 1 decimal place
+     */
+    private double format ( double value) {
+        if ( value != 0){
+            DecimalFormat df = new DecimalFormat("###.#");
+            //if language change
+            String my_str = String.valueOf(df.format(value));
+            String my_new_str = my_str.replaceAll(",", ".");
+
+            return Double.valueOf(my_new_str);
+
+        } else {
+            return -1;
+        }
+    }
+
+    /**
+     *
+     * @param lb - pounds
+     * @return kg rounded to 1 decimal place
+     */
+    public double lbToKgConverter(double lb) {
+        return format(lb * 0.45359237 );
+    }
+
+    /**
+     *
+     * @param kg - kilograms
+     * @return lb rounded to 1 decimal place
+     */
+    public double kgToLbConverter(double kg) {
+        return format(kg * 2.20462262);
+    }
+
+    /**
+     *
+     * @param cm - centimeters
+     * @return feet rounded to 1 decimal place
+     */
+    public double cmToFeetConverter(double cm) {
+        return format(cm * 0.032808399 );
+    }
+
+    /**
+     *
+     * @param feet - feet
+     * @return centimeters rounded to 1 decimal place
+     */
+    public double feetToCmConverter(double feet) {
+        return format(feet * 30.48 );
+    }
+
+    /**
+     *
+     * @param feet - feet
+     * @param inch - inch
+     * @return centimeters rounded to 1 decimal place
+     */
+    public double feetInchToCmConverter(double feet, double inch) {
+        return format( (feet * 30.48)+(inch*2.54) );
+    }
+
+    /**
+     *
+     * @param height in <b>cm</b>
+     * @param weight in <b>kilograms</b>
+     * @return BMI index with 1 decimal place
+     */
+        public double getBMIKg (double height, double weight) {
+            double meters = height/100;
+            return format( weight / Math.pow(meters,2));
+        }
+
+    /**
+     *
+     * @param height in <b>feet</b>
+     * @param heightInch in <b>inch</b>
+     * @param weight in <b>pounds</b>
+     * @return BMI index with 1 decimal place
+     */
+    public double getBMILb (double height, double heightInch, double weight) {
+        int inch = (int)((height *12)+heightInch);
+        return format((weight*703) / Math.pow(inch, 2));
+    }
+
+    /**
+     *
+     * @param bmi (Body Mass Index)
+     * @return BMI classification based on the bmi number
+     */
+    public String getBMIClassification (double bmi) {
+
+        if (bmi <= 0) return "Unknown";
+        String classification;
+
+        if(bmi == 0)
+            classification = "Same solution.";
+        else if(bmi == 1)
+            classification = "First sample is glucose.";
+        else if(bmi == 2)
+            classification = "Second sample is glucose.";
+        else if (bmi < 70.0) {
+            classification = "Too low";
+        } else if (bmi < 110) {
+            classification = "Normal";
+        } else if (bmi < 130) {
+            classification = "Too high";
+        } else {
+            classification = "Dangerously high";
+        }
+
+        return classification;
+    }
+}

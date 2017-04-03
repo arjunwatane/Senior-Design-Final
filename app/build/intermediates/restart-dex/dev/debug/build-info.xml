@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xxhdpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="234737129854050"
+    token="-8138867653150169101"
+    verifier="MANIFEST_FILE_CHANGE" >
+
+    <task
+        name="javac"
+        duration="1568" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="220" />
+    <task
+        name="verifier"
+        duration="16" />
+
+    <artifact
+        location="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/outputs/apk/app-dev-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="234737129854050"
+        verifier="MANIFEST_FILE_CHANGE" >
+        <artifact
+            location="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/outputs/apk/app-dev-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

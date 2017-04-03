@@ -1,0 +1,54 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 25
+    buildToolsVersion '25.0.2'
+    defaultConfig {
+        applicationId "com.itobuz.android.easybmicalculator"
+        minSdkVersion 17
+        targetSdkVersion 25
+        versionCode 2
+        versionName "1.0.1"
+        //64 bit dex for debug error reslove when minSdkVersion above 21
+        multiDexEnabled true
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    productFlavors {
+        dev {
+            // Enable pre-dexing to produce an APK that can be tested on
+            // Android 5.0+ without the time-consuming DEX build processes.
+            minSdkVersion 21
+        }
+        prod {
+            // The actual minSdkVersion for the production version.
+            minSdkVersion 17
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            //multiDexKeepFile file 'multidex-config.txt'
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.1.0'
+    compile 'com.android.support:design:25.1.0'
+    compile 'com.android.support:support-v4:25.1.0'
+    //64 bit dex for debug error reslove when minSdkVersion bellow 21
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.github.paolorotolo:appintro:4.1.0'
+    compile 'com.android.support.test.espresso:espresso-core:2.2.2'
+    compile 'com.google.android.gms:play-services:10.0.1'
+    compile 'net.zetetic:android-database-sqlcipher:3.5.4@aar'
+    testCompile 'junit:junit:4.12'
+    compile group: 'org.ejml', name: 'all', version: '0.30'
+
+}

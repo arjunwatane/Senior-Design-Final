@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-transition-25.1.0_396cd2e6c36062701f18ba6d75c37921552fd30f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.0.1_27cbc15fb28833764c60b7e59547af6310ab8532/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support.test/rules/0.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7e11799d8a26bfa5d48acafe012ee5545b9bf468">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support.test-rules-0.5_aa0e0add9f9aac9acc6216932fe15847248df1ab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="771267c5b0c7a5b348d3205dcfa1f871af7e0177">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-cast-10.0.1_f61c55587c394659cded72a02acbadc83e01a3f0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/org.ejml/core/0.30/79f5269e95262f6b81b84b04b2c355b0704ac9fe/core-0.30.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="79f5269e95262f6b81b84b04b2c355b0704ac9fe">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/core-0.30_4312519e3cd7d42df427ddab2ba4ae07b7c85235/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b1df8fa3d372a27e4e969ce00b00689ee1eed031">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-10.0.1_ce79c9dc8dc3cfa26556a43deb8f306355478252/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_80c0e246dca46613ffd318bacf10e5c7a80cb255/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ffc15e965a9e8c28f24455eedd4cac215c45d1fc">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-config-10.0.1_a7e8fb922f64fd00324a6bfa4710ddb4117000b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de29a39f9260f88151b1ef453140e71c76b6c415">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-crash-10.0.1_c5b00385fe54823b8934a7c308af890da516f27e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_4ebc54d54aaf90c8f5bdefb5f525f0c37ca21e46/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2d5d113b0352ab60946fc44c518cf68fd26cbb79">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-wallet-10.0.1_b630ae0c73795cc4b9c0429f0ff3d49edfa6b864/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-support-v4-25.1.0_31347a2d255de30bbf64f5d32e347ae41be99faa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7a64bf6dc775198eed9db9468a133adf7dfe6562">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-fitness-10.0.1_e99c6a7727e4b41d269bf85ed3d57d6ef7c115ef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="39907d5c8f5902fffef30160ca7447c93b82405c">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-10.0.1_2efaa44413de9c89b078830afca9d464a79922a9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/org.ejml/simple/0.30/db02b4357af778950d9b0d8652b3bb4af785d999/simple-0.30.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="db02b4357af778950d9b0d8652b3bb4af785d999">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/simple-0.30_d9d00e8e26915c553a3f70eab6455cda50e15f16/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/incremental-runtime-classes/dev/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2b9c899fcd1b87c18900b7985aaa6a28d0681e7">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run_050ac94473791c2377e2180dff986d579ef603d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_1c7c0ba0a932c4dbc39bea38f52e93a25187d446/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-core/2.2.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d115b0e9e1501135fe91254ba884fcbd83d374c0">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support.test.espresso-espresso-core-2.2.2_55e298d3e000d26f9ba20915ef14e42fcdef556a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_7657afd9efe1a8b012b6840b470d2d5a5aa0e6eb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/org.ejml/denseC64/0.30/5ead74ac0ce4a32b4dbced7dfa61a552ef9e2077/denseC64-0.30.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5ead74ac0ce4a32b4dbced7dfa61a552ef9e2077">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/denseC64-0.30_35dfb3cbde6b3c57fb84df6ca1ad8e9fa42c6604/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c829ff0ccfecb28a999ee46d9e75948dfc777a4">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-analytics-10.0.1_0ee6f3fde51d9fe883bfe41acafff7f9f1663413/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_d8f1a5c643a80c4ceb6d6b186c632c56fdb3d751/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_790057f4e3fd04b1b4e8efcf0ca159ef736b0c0c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_c70af114015bb2c81afac1d7e7111ec901b64a6f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_fb9fcdf57ccfd51ad72b29158bd456ddc0c30a88/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_dc2a01c2b072b0ce4324fd36c26a3d865480d399/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.0.1_8e06659576d8d437dab997990e329489842ab7d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/2.0.1/516c03b21d50a644d538de0f0369c620989cd8f0/jsr305-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="516c03b21d50a644d538de0f0369c620989cd8f0">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/jsr305-2.0.1_acdbcb3a0cc38ad63bb81b4a1db3c2a27f31a934/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/net.zetetic/android-database-sqlcipher/3.5.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="310bcc4b2dbdddf4b2200e84b32a05b00e5f7ba4">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/net.zetetic-android-database-sqlcipher-3.5.4_1e9e37e5e81ae5966e2089197eecb9b0cd81404b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="dd39827d2067497e60e21da48a7926000b6d4b0c">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-storage-10.0.1_4a8dd61e446eda248ea17159136ae037f41533ff/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/incremental-classes/dev/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f06055c39e465325bd53b666e6e6fdfd0fc3774e">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_e88f518849605532a05b8f03e1f984a0caeec7a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0460bf07cc3657e0be518ca01c174493951c6b8">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-ads-10.0.1_a849570a38b0198490c037cb09f35f208b9db538/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="df1cb17511aabbb63264a0024949d1e42502a512">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-10.0.1_46c96ab5b4481bb983faed97b41a3624ca733eb3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support.test/exposed-instrumentation-api-publish/0.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="905f3e63973d47fedf2d945fa31d8c0f0c98816e">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support.test-exposed-instrumentation-api-publish-0.5_e5b6d3bdabaf95e86fb27cdecfba7d30c26c2557/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-messaging-10.0.1_ae0f5b9c4a3f5d8d251182b11ce4a4103cc98df4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-library/1.3/4785a3c21320980282f9f33d0d1264a69040538f/hamcrest-library-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4785a3c21320980282f9f33d0d1264a69040538f">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/hamcrest-library-1.3_80f8bf9b6d77fe982f181020158ed0fd57b960cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_b51b248e8f372d5813bd1f1f4c32c539e39c4e06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_cffdb4e892b7eff20754a287c74bfad6fd69c11d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-design-25.1.0_a8137e86ddf522d8959379ece48b2012a0adef1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="028f8255cb977b29cdffbfcf05caa0459686120c">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-drive-10.0.1_3958d4563261bfdc45a64fe18c2a4d5ce7bfdbb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-appindexing/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ae80d328a8548b4610ead6c624bab8c6a6984f5b">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-appindexing-10.0.1_95587fcdfc3876fcad3542788c95770996e33649/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1d193729baf37df3d902a423291423a0df7e3779">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-10.0.1_ba382d904f49f9368f9e7401d3880a3a56828951/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/javax.inject-1_ae9c28375cd0271c31e8ab5857dec954311b06df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/palette-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="734e80dffea7bd76c18ae256822a124c30d85850">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-palette-v7-24.0.0_69d21d34ecf242579a2d872a609d4a874389e180/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/com.squareup/javawriter/2.1.1/67ff45d9ae02e583d0f9b3432a5ebbe05c30c966/javawriter-2.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67ff45d9ae02e583d0f9b3432a5ebbe05c30c966">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/javawriter-2.1.1_3c8e80d0f40ac392d3521ed1ca38aeda6a6778b0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b955cb3a1ad6f1b6ff728ce1e0cd592c1717b440">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-10.0.1_7be09909404fcffa6b2687e828bedf8d5cde7d4b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_285ac196a6f4e0ec2ce8d1eba97bd93d0c31fb74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-multidex-1.0.1_34299915f946b6ed8004532b32e4ad611c8fce94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a48dc0b148059764d32500be558702d5ff932058">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-identity-10.0.1_0e8dd92f6a21cea957f9480741895759fda02b9b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support.test.espresso/espresso-idling-resource/2.2.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a890ee8445927649d9ed50f625a315d8758688be">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support.test.espresso-espresso-idling-resource-2.2.2_86edd94a5db432efd5e8a5c1aba61f98b7382eb7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-places-10.0.1_8a518f2e398c1d5d93a262ab4679880aeaa7fbb3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/org.ejml/equation/0.30/8b676f156cdcbac572249f303dee710bffa94020/equation-0.30.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8b676f156cdcbac572249f303dee710bffa94020">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/equation-0.30_99e6728384e0c97334c70912f4fad280ce7dc495/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/support-annotations-25.1.0_73eb61850b6b0fa2dac3ba62ac3714e5677a5c1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/org.ejml/dense64/0.30/480f1c2838c2998c7e9be4491ef689d590a838b9/dense64-0.30.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="480f1c2838c2998c7e9be4491ef689d590a838b9">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/dense64-0.30_a351f3e43696340076667245cc8d221d0d995880/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_9b6290a13de3015ef260bf12a1b2733f6efc0ef6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="408a599ac77cd17fe8e8919326bec617b3d005bd">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-wearable-10.0.1_946b82f4a8994d595f684407a995e27b0b355c74/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6cf557be4dbd0282ea2388633e5378634423226">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-10.0.1_dd33d9d34b9459391c43a6438c2eabaf31aa5b56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="971509bbe30bb7b971fc1c49d7b23d0d818830ac">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-10.0.1_1a2b726a7835aecafff2ce393f2ee7fd35173eb7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_ec71a713b65dd4c4249e486cc350b65ea7791fd3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_7d4070317900fad465bc0ae6ce873ee2d8220566/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-instantapps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="45305e6af414dab5aba6c3225081c2f15c3bdd1e">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-instantapps-10.0.1_144808984b5ca92a6994fc1f6ab1ba7cb23d53b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-v4-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f23ad0f8e58713ff4b55f61c0bbde3830378347c">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-v4-impl-10.0.1_0bcdc89d37c498b1a8595b8986e28839358c8e4d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.0.1_d99ba6fb4cdb66da24a2469e70d3fef94bf4a4d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support.test/runner/0.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="796f9229948e907471c5595fbe94655ccf03ff73">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support.test-runner-0.5_2134bcd3f648625d51e6f82a528d4613ed6c61e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/junit-4.12_772481400e3d8132b615485a7ed1feb2ad4d077a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8010ae6ed32828a145b25ec97bc07b7a83c6318f">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-database-connection-10.0.1_d1544eeddb4a6c5530e4def56104bfd4a4b3cbd2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-integration/1.3/5de0c73fef18917cd85d0ab70bb23818685e4dfd/hamcrest-integration-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5de0c73fef18917cd85d0ab70bb23818685e4dfd">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/hamcrest-integration-1.3_f97d267690c9869737418627ff30854f07669dea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8f128aeeb7e31271b28a7adb9dac1f3a6ed9f5e7">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-database-10.0.1_84f2e3b3b03d3dac20575343c6df13eb700843ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-awareness/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4385ccc0a88b33d182a836eadb47be55c8eb1107">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-awareness-10.0.1_6aa21aa7cd58f3325a0e12ab730f08b6c380d13a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_ba0d18a3ab49d64ac8ecbdb47b48fbb0d23e4d71/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/org.ejml/all/0.30/2f1e5385d75bb674d04133b975761f28466d9f45/all-0.30.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f1e5385d75bb674d04133b975761f28466d9f45">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/all-0.30_98053cbf91b5a593980596e04b0111070207e0e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="57c2eceb8548de84509d1ebc293fedec53231f6c">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-gass-10.0.1_9341bdb360361023375e96cdf5a5aae1da436c57/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b6763651ec29b4c95e7bbe63fc393ffcc8c4c2c5">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/internal_impl-24.0.0_86c18a72c3a9f83b69d6f292e045b5376d2c91b9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="09cf6aa1390f95157e8295d02be7868f568825fc">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-storage-common-10.0.1_f3e68272ec0d42e07ae1622b4e7d6357899a8d05/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b327fbe2fad414bc38cf0ce8f7efe1a38f572837">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-mediarouter-v7-24.0.0_c064d9db418e12d599140f8f9f563154958d97d0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e871881b36b32e6bfd271a830c6eeb54ff0fc185">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-10.0.1_cfce1eea772e2be3bb84afb7c933484cdce8a906/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba6aa5e69ef31dee57208125323cee958fc67565">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-vision-10.0.1_3224de414b71622f3be06e0a6928e1db08d27ded/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.android.support-support-compat-25.1.0_8d36ada217455d043844465cba0863dc4cfbb43e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/hamcrest-core-1.3_3d65e9e44778f0b2492893d09e70246fc118fd2a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="92c871a22463a247e8a77a9f3fd231c278788c4a">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-panorama-10.0.1_db71d3c3930fb2bb8d5ae960a6a7f4726cfe602b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.0.1_eab0002a3a5fa1dcbf93a53c6a80902659c8ee9e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c6e1f361e9d61aece9dac39b77fcc98a337a144d">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-nearby-10.0.1_71c7ccc135845fee54aeafc72ad5399c21eac638/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9cca2818594cc5348806d6662133491e7ea0fa8d">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-auth-10.0.1_ea3a63eeab7dda28139d0bc20048e09125215c94/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1e11c68fec92a17c84dd8d1dd80e74c4e67b12e2">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-games-10.0.1_54f841cb04eaac888b67840d0f4ee32982f56526/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_9cce15c36e98c0b9b620170e756a24b78f5665d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="461cd433c2723981c7536d60acfcf3d86f3105fb">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.github.paolorotolo-appintro-4.1.0_7ee9349e90cbc9accd16f4df2fbd59ec5251386e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.2/479c1e06db31c432330183f5cae684163f186146/javax.annotation-api-1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="479c1e06db31c432330183f5cae684163f186146">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/javax.annotation-api-1.2_5188104c35b39b1799730b6d8ecfa6d78d78d4f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_5bb197466d0565d547d1c5b628abe1d3cd32ac44/classes.dex" />
+    </item>
+
+</items>

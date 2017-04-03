@@ -1,0 +1,7 @@
+#Sun Apr 02 14:01:57 EDT 2017
+base.0=/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run_050ac94473791c2377e2180dff986d579ef603d7
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_e88f518849605532a05b8f03e1f984a0caeec7a3/classes.dex
+base.1=/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_e88f518849605532a05b8f03e1f984a0caeec7a3
+file.0=/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run_050ac94473791c2377e2180dff986d579ef603d7/classes.dex
