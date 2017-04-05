@@ -1,0 +1,12 @@
+Senior-Design-Final.iml
+local.properties
+*.lock
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/build
+/captures
+*.json
+/captures
