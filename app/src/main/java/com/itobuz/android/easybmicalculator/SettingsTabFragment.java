@@ -1,6 +1,5 @@
 package com.itobuz.android.easybmicalculator;
 
-
 import android.annotation.TargetApi;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -62,12 +61,10 @@ import static android.app.Activity.RESULT_CANCELED;
 import static android.app.Activity.RESULT_OK;
 import static java.lang.Math.pow;
 
-
 /**
  * A simple {@link Fragment} subclass.
  */
 public class SettingsTabFragment extends Fragment {
-
     public static final String ARG_PAGE = "ARG_PAGE";
     private int mPageNo;
 
@@ -92,7 +89,6 @@ public class SettingsTabFragment extends Fragment {
     private TextView versionAbout;
 //    private Button btn_bluetooth;
 
-
     private int result_bmi;
     private  int userId;
     private String userAge;
@@ -114,7 +110,6 @@ public class SettingsTabFragment extends Fragment {
 
     private float bmiResult, glucose_result, finalGLUCOSE;
     double finalOutputGlucose;
-
 
     /**Arjun**/
     private Button btn_bluetooth, btn_testsample, btn_sample_glucose, btn_filter_glucose, btn_train_polyfit, btn_train_PCA;
@@ -141,7 +136,6 @@ public class SettingsTabFragment extends Fragment {
     private double skin_readings[][] = new double[NUM_SAMPLES][SAMPLE_LENGTH];
     int gluc_finish = 0;
 
-
     // Victor Code
     private static final String TAG = "BluetoothFragment";
     // private static final int REQUEST_ENABLE_BT = 1;
@@ -162,13 +156,9 @@ public class SettingsTabFragment extends Fragment {
 
     public int data_cnt = 0;
 
-
-    private static final UUID MY_UUID =
-            UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
-
+    private static final UUID MY_UUID = UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
 
     private static final int MESSAGE_READ = 0;
-
 
     private BluetoothManager mBluetoothManager;
     private BluetoothAdapter mBluetoothAdapter;
@@ -177,7 +167,6 @@ public class SettingsTabFragment extends Fragment {
 
     private ScanCallback mScanCallback;
     private BluetoothAdapter.LeScanCallback mLeScanCallback;
-
 
     private ScanSettings settings;
     private List<ScanFilter> filters;
@@ -202,17 +191,14 @@ public class SettingsTabFragment extends Fragment {
     private String kDeviceName, kSpo2, kPulseRate;
     private Button mDisconnectButton;
 
-
-
-
     public static SettingsTabFragment newInstance(int pageNo) {
-
         Bundle args = new Bundle();
         args.putInt(ARG_PAGE, pageNo);
         SettingsTabFragment settingsFragment = new SettingsTabFragment();
         settingsFragment.setArguments(args);
         return settingsFragment;
     }
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -221,13 +207,10 @@ public class SettingsTabFragment extends Fragment {
         deviceList =  new ArrayList<>();
         deviceAddress = new ArrayList<>();
         // deviceList = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, devices);
-
     }
 
-
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater,ViewGroup container,Bundle savedInstanceState){
         View view = inflater.inflate(R.layout.fragment_settings, container, false);
         viewPager = (ViewPager) getActivity().findViewById(R.id.view_pager);
 
@@ -244,7 +227,6 @@ public class SettingsTabFragment extends Fragment {
         calculateBtn = (Button) view.findViewById(R.id.editCalculate);
         btn_testsample = (Button) view.findViewById(R.id.test_sample);
 
-
         /** Arjun **/
         btn_sample_glucose = (Button) view.findViewById(R.id.sample_glucose_btn);
         btn_filter_glucose = (Button) view.findViewById(R.id.filter_btn);
@@ -253,44 +235,33 @@ public class SettingsTabFragment extends Fragment {
         editGlucoseText = (AppCompatEditText) view.findViewById(R.id.editGlucose);
         btn_bluetooth = (Button) view.findViewById(R.id.bluetooth_btn);
 
-        mHandler = new Handler()
-        {
+        mHandler = new Handler(){
             @Override
-            public void handleMessage(Message msg)
-            {
-                if (msg.what == MESSAGE_READ)
-                {
-                    if(gluc_finish == 0)
-                    {
-                        if(data_cnt < SAMPLE_LENGTH)
-                        {
-
+            public void handleMessage(Message msg){
+                if (msg.what == MESSAGE_READ){
+                    if(gluc_finish == 0){
+                        if(data_cnt < SAMPLE_LENGTH){
                             String message = msg.obj.toString();
                             float readMessage = Float.valueOf(message);
                             System.out.println(message);
                             Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
                             glucose_array[data_cnt] = readMessage;
                             data_cnt = data_cnt+1;
-                            if (data_cnt == SAMPLE_LENGTH)
-                            {
+                            if (data_cnt == SAMPLE_LENGTH){
 //                                gluc_finish = 1;
                                 data_cnt = 0;
                             }
                         }
-
                     }
-                    else if(gluc_finish == 1)
-                    {
-                        if(data_cnt < SAMPLE_LENGTH)
-                        {
+                    else if(gluc_finish == 1){
+                        if(data_cnt < SAMPLE_LENGTH){
                             String message = msg.obj.toString();
                             float readMessage = Float.valueOf(message);
                             System.out.println(readMessage);
                             Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
                             skin_array[data_cnt] = readMessage;
                             data_cnt = data_cnt + 1;
-                            if (data_cnt == SAMPLE_LENGTH)
-                            {
+                            if (data_cnt == SAMPLE_LENGTH){
                                 gluc_finish = 0;
                                 data_cnt = 0;
                             }
@@ -300,7 +271,6 @@ public class SettingsTabFragment extends Fragment {
             }
         };
 
-
         btn_sample_glucose.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -309,7 +279,10 @@ public class SettingsTabFragment extends Fragment {
                     sample(editGlucoseText.getText().toString());
 
                 }
-                catch (Exception e) {Toast.makeText(getActivity(), "Please enter a valid number.", Toast.LENGTH_SHORT).show();}
+                catch (Exception e){
+                    Toast.makeText(getActivity(), "Please enter a valid number."
+                            , Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
@@ -320,19 +293,13 @@ public class SettingsTabFragment extends Fragment {
             }
         });
 
-
-
         btn_bluetooth.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-
                 disconnectBluetooth();
                 connectBluetooth();
-
-
             }
         });
-
 
         mdb = new DatabaseHelper(this.getContext());
 //        userId= mdb.lastBmiId();
@@ -343,38 +310,28 @@ public class SettingsTabFragment extends Fragment {
         // if select height spinner inch field setup
         settingsHeightSpinners();
 
-
         editAgeText.addTextChangedListener(new TextWatcher() {
-
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-
                 if(s.toString().trim().length()==0){
                     calculateBtn.setEnabled(false);
                 } else {
                     calculateBtn.setEnabled(true);
                 }
-
-
             }
 
             @Override
-            public void beforeTextChanged(CharSequence s, int start, int count,
-                                          int after) {
+            public void beforeTextChanged(CharSequence s, int start, int count,int after) {
                 // TODO Auto-generated method stub
-
             }
 
             @Override
             public void afterTextChanged(Editable s) {
                 // TODO Auto-generated method stub
-
             }
         });
 
-
         editWeightText.addTextChangedListener(new TextWatcher() {
-
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
 
@@ -383,92 +340,70 @@ public class SettingsTabFragment extends Fragment {
                 } else {
                     calculateBtn.setEnabled(true);
                 }
-
-
             }
 
             @Override
-            public void beforeTextChanged(CharSequence s, int start, int count,
-                                          int after) {
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
                 // TODO Auto-generated method stub
-
             }
 
             @Override
             public void afterTextChanged(Editable s) {
                 // TODO Auto-generated method stub
-
             }
         });
 
         editHeightText.addTextChangedListener(new TextWatcher() {
-
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
-
                 if(s.toString().trim().length()==0){
                     calculateBtn.setEnabled(false);
                 } else {
                     calculateBtn.setEnabled(true);
                 }
-
-
             }
 
             @Override
-            public void beforeTextChanged(CharSequence s, int start, int count,
-                                          int after) {
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
                 // TODO Auto-generated method stub
-
             }
 
             @Override
             public void afterTextChanged(Editable s) {
                 // TODO Auto-generated method stub
-
             }
         });
-
-
 
         //Calculate button click action
         calculateBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
                 int testing_DEMO = 1;
 
-                if((actual_glucose_values.length - size)<=0 && testing_DEMO == 0)
-                {
-
+                if((actual_glucose_values.length - size)<=0 && testing_DEMO == 0){
                     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
                     strDate = sdf.format(new Date());
 
                     userAge = editAgeText.getText().toString();
                     userSex = (editMale.isChecked()) ? "Male" : (editFemale.isChecked()) ? "Female" : "";
 
-                    try
-                    {
+                    try{
                         userWeight = Double.valueOf(editWeightText.getText().toString());
-                    } catch (NumberFormatException e)
-                    {
+                    } catch (NumberFormatException e){
                         userWeight = 0;
                     }
 
                     userWeightUnit = editWeightunit.getSelectedItem().toString();
                     userWeightUnitPos = editWeightunit.getSelectedItemPosition();
 
-                    try
-                    {
+                    try{
                         userHight = Double.valueOf(editHeightText.getText().toString());
-                    } catch (NumberFormatException e)
-                    {
+                    } catch (NumberFormatException e){
                         userHight = 0;
                     }
 
-                    try
-                    {
+                    try{
                         userHightInch = Double.valueOf(editHeightInchText.getText().toString());
-                    } catch (NumberFormatException e)
-                    {
+                    } catch (NumberFormatException e){
                         userHightInch = 0;
                     }
 
@@ -476,11 +411,9 @@ public class SettingsTabFragment extends Fragment {
                     userHeightUnitPos = editHeightunit.getSelectedItemPosition();
                     userStatus = 1;
 
-
 //                    BmiHelper bh = new BmiHelper();
                     GlucHelper gh = new GlucHelper();
 
-//
 //                if(userWeightUnitPos==0 && userHeightUnitPos==0 ){
 //                    bmiResult = (float) bh.getBMIKg(userHight,userWeight);
 //                }else if(userWeightUnitPos==1 && userHeightUnitPos==0 ) {
@@ -494,7 +427,6 @@ public class SettingsTabFragment extends Fragment {
 //                    filterTesting();
 //                    finalGLUCOSE = testPolyFit();
 
-
 //                    finalGLUCOSE = testBeerLambert();
 //                    glucose_result = test_PCA();
 //                    bmiResult = 55.0f;
@@ -502,8 +434,9 @@ public class SettingsTabFragment extends Fragment {
 //                    finalGLUCOSE = 95.0f;
 
                     if(mdb.updateBioAll(Integer.parseInt(userAge),userSex,userWeight,userWeightUnit,
-                            userHight,userHightInch,userHeightUnit,0,0) || mdb.insertGlucLog(Hold.getName(),Hold.getId(),(int)glucose_result,gh.getGlucClassification(glucose_result))){
-
+                                userHight,userHightInch,userHeightUnit,0,0) || mdb.insertGlucLog
+                                (Hold.getName(),Hold.getId(),(int)glucose_result,gh
+                                .getGlucClassification(glucose_result))){
                         context = getContext().getApplicationContext();
 
                         classify = gh.getGlucClassification(glucose_result);
@@ -512,8 +445,7 @@ public class SettingsTabFragment extends Fragment {
                         viewPager.setCurrentItem(0);
                     }
                 }
-                else if(testing_DEMO == 1)
-                {
+                else if(testing_DEMO == 1){
 //                    finalGLUCOSE = glucose_array[1]*100;
 //                    data_cnt = 0;
                     float v1 = glucose_array[0];
@@ -529,44 +461,36 @@ public class SettingsTabFragment extends Fragment {
                     else
                         finalGLUCOSE = 0;
 
-
                     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
                     strDate = sdf.format(new Date());
 
                     userAge = editAgeText.getText().toString();
                     userSex = (editMale.isChecked()) ? "Male" : (editFemale.isChecked()) ? "Female" : "";
 
-                    try
-                    {
+                    try{
                         userWeight = Double.valueOf(editWeightText.getText().toString());
-                    } catch (NumberFormatException e)
-                    {
+                    } catch (NumberFormatException e){
                         userWeight = 0;
                     }
 
                     userWeightUnit = editWeightunit.getSelectedItem().toString();
                     userWeightUnitPos = editWeightunit.getSelectedItemPosition();
 
-                    try
-                    {
+                    try{
                         userHight = Double.valueOf(editHeightText.getText().toString());
-                    } catch (NumberFormatException e)
-                    {
+                    } catch (NumberFormatException e){
                         userHight = 0;
                     }
 
-                    try
-                    {
+                    try{
                         userHightInch = Double.valueOf(editHeightInchText.getText().toString());
-                    } catch (NumberFormatException e)
-                    {
+                    } catch (NumberFormatException e){
                         userHightInch = 0;
                     }
 
                     userHeightUnit = editHeightunit.getSelectedItem().toString();
                     userHeightUnitPos = editHeightunit.getSelectedItemPosition();
                     userStatus = 1;
-
 
                     GlucHelper gh = new GlucHelper();
                     if(mdb.updateBioAll(Integer.parseInt(userAge),userSex,userWeight,userWeightUnit,
@@ -581,11 +505,8 @@ public class SettingsTabFragment extends Fragment {
                     }
                 }
                 else{
-
                     Toast.makeText(getActivity(), "Add more samples", Toast.LENGTH_SHORT).show();
-
                 }
-
             }
         });
 
@@ -594,8 +515,7 @@ public class SettingsTabFragment extends Fragment {
             public void onClick(View arg0) {
                 int testing_DEMO = 1;
 
-                if(testing_DEMO == 1)
-                {
+                if(testing_DEMO == 1){
                     String a = "A";
                     if(connectThread != null)
                         connectThread.connectedThread.write(a.getBytes());
@@ -606,39 +526,28 @@ public class SettingsTabFragment extends Fragment {
 //                    }
 //                    else
 //                        Toast.makeText(getActivity(), Float.toString(glucose_array[readings]*100), Toast.LENGTH_SHORT).show();
-
-                }else
-                {
+                }else{
                     data_cnt = 0;
-                    if ((actual_glucose_values.length - size) <= 0)
-                    {
+                    if ((actual_glucose_values.length - size) <= 0){
                         float data_gluc[] = glucose_array;
                         double spec_double_gluc[] = new double[data_gluc.length];
-                        for (int i = 0; i < spec_double_gluc.length; i++)
-                        {
+                        for (int i = 0; i < spec_double_gluc.length; i++){
                             spec_double_gluc[i] = (double) data_gluc[i];
                         }
 
                         float data_skin[] = skin_array;
                         double spec_double_skin[] = new double[data_skin.length];
-                        for (int i = 0; i < spec_double_skin.length; i++)
-                        {
+                        for (int i = 0; i < spec_double_skin.length; i++){
                             spec_double_skin[i] = (double) data_skin[i];
                         }
 
                         current_sample_gluc = spec_double_gluc;
                         current_sample_skin = spec_double_skin;
-
                     } else
                         Toast.makeText(getActivity(), "Add more samples", Toast.LENGTH_SHORT).show();
                 }
-
             }
         });
-
-        // Assign data in Shared Preference
-        pref = getActivity().getPreferences(0);
-        edt = pref.edit();
 
         return view;
     }
@@ -671,7 +580,7 @@ public class SettingsTabFragment extends Fragment {
             adapter = ArrayAdapter.createFromResource(this.getContext(), R.array.heightArray, android.R.layout.simple_spinner_item);
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
             editHeightunit.setAdapter(adapter);
-            int heightSpinnerPos = adapter.getPosition(c.getWeightunit());
+            int heightSpinnerPos = adapter.getPosition(c.getHeightunit());
             editHeightunit.setSelection(heightSpinnerPos);
 
             if(c.getHeightunit().equals("Cm")){
@@ -692,14 +601,10 @@ public class SettingsTabFragment extends Fragment {
         }
     }
 
-
     public void settingsHeightSpinners(){
         editHeightunit.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
-
             @Override public void onItemSelected(AdapterView parent, View view, int position, long id) {
-
-                //I.E. if in the height spinner CM is selected I would like to hide the second height edittext field.
-
+                //height spinner CM is selected I would like to hide the second height edittext field
                 if (position == 0){
                     editHeightInchText.setVisibility(View.GONE);
 
@@ -711,14 +616,9 @@ public class SettingsTabFragment extends Fragment {
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
                 // Do Something.
-
             }
         });
     }
-
-
-
-
 
     /** GOLD FUNCTIONS **/
     private void disconnectBluetooth(){
@@ -729,42 +629,31 @@ public class SettingsTabFragment extends Fragment {
             connectThread.cancel();
     }
 
-    private void connectBluetooth()
-    {
+    private void connectBluetooth(){
         int msptracker = 0;
         int nonintracker = 1;
         btAdapter = BluetoothAdapter.getDefaultAdapter();
-        if(btAdapter == null)
-        {
+        if(btAdapter == null){
             Toast.makeText(getActivity(), "Bluetooth is not supported on this device.", Toast.LENGTH_SHORT).show();
         }
-        else
-        {
-            if(!btAdapter.isEnabled())
-            {
+        else{
+            if(!btAdapter.isEnabled()){
                 Intent enableIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
                 startActivityForResult(enableIntent, REQUEST_ENABLE_BT);
 //                btnCT.setEnabled(false);
             }
-            else
-            {
+            else{
                 pairedDevices = btAdapter.getBondedDevices();
-                if(pairedDevices.size() > 0)
-                {
-                    for(BluetoothDevice device : pairedDevices)
-                    {
+                if(pairedDevices.size() > 0){
+                    for(BluetoothDevice device : pairedDevices){
                         Bluetooth bt = new Bluetooth(device.getName(), device.getAddress());
                         deviceList.add(bt);
                         // deviceAddress.add(device.getAddress());
-                        for(int i = 0; i < deviceList.size(); i++)
-                        {
-                            if(deviceList.get(i).getName().startsWith("HC"))
-                            {
+                        for(int i = 0; i < deviceList.size(); i++){
+                            if(deviceList.get(i).getName().startsWith("HC")){
                                 msptracker = i;
                             }
-
-                            if(deviceList.get(i).getName().startsWith("Nonin"))
-                            {
+                            if(deviceList.get(i).getName().startsWith("Nonin")){
                                 nonintracker = i;
                             }
                         }
@@ -791,31 +680,22 @@ public class SettingsTabFragment extends Fragment {
         }
     }
 
-
     @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data)
-    {
+    public void onActivityResult(int requestCode, int resultCode, Intent data){
         int msptracker = 0;
-        if(requestCode == REQUEST_ENABLE_BT)
-        {
-            if(resultCode == RESULT_OK)
-            {
+        if(requestCode == REQUEST_ENABLE_BT){
+            if(resultCode == RESULT_OK){
                 pairedDevices = btAdapter.getBondedDevices();
-                if(pairedDevices.size() > 0)
-                {
-                    for(BluetoothDevice device : pairedDevices)
-                    {
+                if(pairedDevices.size() > 0){
+                    for(BluetoothDevice device : pairedDevices){
                         Bluetooth bt = new Bluetooth(device.getName(), device.getAddress());
                         deviceList.add(bt);
                         // deviceAddress.add(device.getAddress());
-                        for(int i = 0; i < deviceList.size(); i++)
-                        {
-                            if(deviceList.get(i).getName().startsWith("HC-06"))
-                            {
+                        for(int i = 0; i < deviceList.size(); i++){
+                            if(deviceList.get(i).getName().startsWith("HC-06")){
                                 msptracker = i;
                             }
                         }
-
 //                        tvDev.setText((deviceList.get(msptracker).getName()));
 //                        tvDev.refreshDrawableState();
                         // deviceList.notifyDataSetChanged();
@@ -832,15 +712,12 @@ public class SettingsTabFragment extends Fragment {
                     btConnected = true;
                     Toast.makeText(getActivity(), "Bluetooth is now enabled.", Toast.LENGTH_SHORT).show();
                 }
-
             }
-            if(resultCode == RESULT_CANCELED)
-            {
+            if(resultCode == RESULT_CANCELED){
                 Toast.makeText(getActivity(), "Bluetooth needs to be enabled to continue.", Toast.LENGTH_SHORT).show();
             }
         }
     }
-
 
     private class ConnectThread extends Thread {
         private final BluetoothSocket mmSocket;
@@ -883,7 +760,6 @@ public class SettingsTabFragment extends Fragment {
             connectedThread = new ConnectedThread(mmSocket);
             connectedThread.start();
             ctAlive = true;
-
         }
 
         /** Will cancel an in-progress connection, and close the socket */
@@ -892,9 +768,7 @@ public class SettingsTabFragment extends Fragment {
                 mmSocket.close();
             } catch (IOException e) { }
         }
-
     }
-
 
     public class ConnectedThread extends Thread {
         private final BluetoothSocket mmSocket;
@@ -902,7 +776,6 @@ public class SettingsTabFragment extends Fragment {
         private final OutputStream mmOutStream;
 
         public ConnectedThread(BluetoothSocket socket) {
-
             mmSocket = socket;
             InputStream tmpIn = null;
             OutputStream tmpOut = null;
@@ -930,9 +803,7 @@ public class SettingsTabFragment extends Fragment {
                 try {
                     // Read from the InputStream
                     availableBytes = mmInStream.available();
-                    if(availableBytes > 0)
-                    {
-
+                    if(availableBytes > 0){
                         buffer = new byte[availableBytes];
 //                        Log.d("Before buffer read;", new String(buffer));
                         bytes = mmInStream.read(buffer);
@@ -943,19 +814,13 @@ public class SettingsTabFragment extends Fragment {
                         String s = Float.toString(test);
 
                         // Send the obtained bytes to the UI activity
-                        if(test > 0.001)
-                        {
-
+                        if(test > 0.001){
                             mHandler.obtainMessage(MESSAGE_READ, bytes, -1, s).sendToTarget();
                         }
-
                     }
-                    else
-                    {
+                    else{
                         Thread.sleep(100);
                     }
-
-
                 } catch (IOException e) {
                     break;
                 } catch (InterruptedException e) {
@@ -983,9 +848,7 @@ public class SettingsTabFragment extends Fragment {
         }
     }
 
-
-    public void initiateNonin(BluetoothDevice bt)
-    {
+    public void initiateNonin(BluetoothDevice bt){
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
             int locationPermission = ContextCompat.checkSelfPermission(getActivity(),
                     android.Manifest.permission.ACCESS_COARSE_LOCATION);
@@ -1034,14 +897,8 @@ public class SettingsTabFragment extends Fragment {
         }
     }
 
-
-
     /**
-     * @desc This method initializes ScanCallback use for
-     *       devices running API 21 and higher
-     *
-     * @param
-     *
+     * @desc This method initializes ScanCallback use for devices running API 21 and higher
      */
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     public void initScanCallback(BluetoothDevice btDevice) {    // the onScanResult is not returning anything, and this is the reason why the nonin is not connecting
@@ -1077,11 +934,7 @@ public class SettingsTabFragment extends Fragment {
     }
 
     /**
-     * @desc This method initializes LeScanCallback use for
-     *       devices running API 18-20
-     *
-     * @param
-     *
+     * @desc This method initializes LeScanCallback use for devices running API 18-20
      */
 //    public void initLeScanCallBack() {
 //        mLeScanCallback = new BluetoothAdapter.LeScanCallback() {
@@ -1104,12 +957,9 @@ public class SettingsTabFragment extends Fragment {
 
     /**
      * @desc This method tries to connect to the selected the device
-     *
-     * @param address
-     *            - Bluetooth LE device address
+     * @param address - Bluetooth LE device address
      */
     public boolean connect(final String address) {
-
         if (btAdapter == null || address == null) {
             Log.i("Tag",
                     "BluetoothAdapter not initialized or unspecified address");
@@ -1132,9 +982,7 @@ public class SettingsTabFragment extends Fragment {
 
     /**
      * @desc connects to the GATT server hosted by this device
-     *
-     * @param device
-     *            - the about to connect Bluetooth device
+     * @param device - the about to connect Bluetooth device
      */
     private void connectGatt(final BluetoothDevice device) {
         getActivity().runOnUiThread(new Runnable() {
@@ -1151,14 +999,11 @@ public class SettingsTabFragment extends Fragment {
      *       about. For example, connection change and services discovered.
      */
     private final BluetoothGattCallback mGattCallback = new BluetoothGattCallback() {
-
         /*
          * @desc Callback invoked when the list of remote services, charcters
          * and descriptors for the remote device have been updated, i.e. new
          * service have been discovered
-         *
          * @param gatt - Gat client invoked discoverServices()
-         *
          * @param status - GATT_SUCCESS if the remote device has been explored
          * successfully
          */
@@ -1177,20 +1022,14 @@ public class SettingsTabFragment extends Fragment {
 
         /**
          * @desc Callback triggered as a result of a remote characteristic
-         *       notification Also, the received data are parsed here into
-         *       measurements
-         *
-         * @param gatt
-         *            - GATT client the characteristic is associated with
-         *
+         *       notification Also, the received data are parsed here into measurements
+         * @param gatt - GATT client the characteristic is associated with
          * @param characteristic
-         *            Characteristic that has been updated as a result of remote
-         *            notification event
+         *            Characteristic that has been updated as a result of remote notification event
          */
         @Override
         public void onCharacteristicChanged(BluetoothGatt gatt,
-                                            BluetoothGattCharacteristic characteristic) {
-
+                BluetoothGattCharacteristic characteristic) {
             Log.i("Tag", "Measurements recieved!");
 
             // Indicates the current device status
@@ -1251,25 +1090,16 @@ public class SettingsTabFragment extends Fragment {
             // Display the measurement(Only Spo2 and PulseRate is shown in the
             // UI for this demo)
             updateUI();
-
         }
 
         /**
          * @desc Callback indicating when GATT client has connected/disconnected
          *       to/from a remote GATT server
-         *
-         * @param gatt
-         *            - GATT client
-         *
-         * @param status
-         *            - status of the connect or disconnect operation
-         *
-         * @param newState
-         *            - returns the new connection state
+         * @param gatt - GATT client
+         * @param status - status of the connect or disconnect operation
+         * @param newState - returns the new connection state
          */
-        public void onConnectionStateChange(BluetoothGatt gatt, int status,
-                                            int newState) {
-
+        public void onConnectionStateChange(BluetoothGatt gatt, int status, int newState) {
             Log.i("Tag", "ConnectionStateChanged");
             // connected to a GATT server
             if (status == BluetoothGatt.GATT_SUCCESS
@@ -1299,9 +1129,7 @@ public class SettingsTabFragment extends Fragment {
         /**
          * @desc reads the specified characteristic of the service and enables
          *       notification
-         *
-         * @param gatt
-         *            - GATT client
+         * @param gatt - GATT client
          */
         public void readDevice(BluetoothGatt gatt) {
             BluetoothGattCharacteristic characteristic;
@@ -1346,10 +1174,7 @@ public class SettingsTabFragment extends Fragment {
 
     /**
      * @desc update the UI with the measurements
-     *
-     * @param status
-     *            - represents the status of the current connection, "Connected"
-     *            or "Scanning"
+     * @param status - represents the status of the current connection, "Connected" or "Scanning"
      */
     private void updateUIConnectionStatus(final String status) {
         getActivity().runOnUiThread(new Runnable() {
@@ -1391,10 +1216,7 @@ public class SettingsTabFragment extends Fragment {
         updateUIConnectionStatus("Scanning...");
     }
 
-    public void closeNonin()
-    {
-        close();
-    }
+    public void closeNonin(){ close(); }
 
     /**
      * @desc After using a given BLE device, the app must call this method to
@@ -1408,27 +1230,9 @@ public class SettingsTabFragment extends Fragment {
         mBluetoothGatt = null;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     /** Get one sample data (skin and glucose) from the hardware module, and add it to the database **/
     public void sample(String known_glucose_string){
-
-        if(actual_glucose_values.length-size != 0)
-        {
-
+        if(actual_glucose_values.length-size != 0){
             double known_glucose = Double.parseDouble(known_glucose_string);
             float data_gluc[] = glucose_array;
 
@@ -1439,7 +1243,6 @@ public class SettingsTabFragment extends Fragment {
             }
             actual_glucose_values[size] = known_glucose;
             glucose_database[size] = gluc_double;
-
 
             //skin
             float data_skin[] = skin_array;
@@ -1452,12 +1255,10 @@ public class SettingsTabFragment extends Fragment {
             size++;
             System.out.println(size);
             Toast.makeText(getActivity(), "Samples left: " + String.valueOf(actual_glucose_values.length - size), Toast.LENGTH_SHORT).show();
-
         }
         else
             Toast.makeText(getActivity(), "Database is full. Cannot add more samples.", Toast.LENGTH_SHORT).show();
     }
-
 
     //train glucose and skin
     public void train(){
@@ -1468,28 +1269,25 @@ public class SettingsTabFragment extends Fragment {
 //            System.out.println(glucose_array);
             glucose_array = new float[SAMPLE_LENGTH];
 //            System.out.println(glucose_array);
-
         }
-        else{if(actual_glucose_values.length-size <= 0)
-        {
-            filter();
-            train_polyfit();
-            train_PCA();
+        else{
+            if(actual_glucose_values.length-size <= 0){
+                filter();
+                train_polyfit();
+                train_PCA();
 
-            trainBeerLambert();
-            Toast.makeText(getActivity(), "Databases are filtered and trained.", Toast.LENGTH_SHORT).show();
-            size++;
+                trainBeerLambert();
+                Toast.makeText(getActivity(), "Databases are filtered and trained.", Toast.LENGTH_SHORT).show();
+                size++;
+            }
+            else{
+                Toast.makeText(getActivity(), "Add more samples", Toast.LENGTH_SHORT).show();
+            }
         }
-        else
-        {
-            Toast.makeText(getActivity(), "Add more samples", Toast.LENGTH_SHORT).show();
-        }}
-
     }
 
     /** TRAIN DATA and return derived + smoothed database **/
     public void filter() {
-
         train_filtered_gluc = glucose_database;
 
         //1st derivative
@@ -1502,10 +1300,6 @@ public class SettingsTabFragment extends Fragment {
         train_filtered_skin = train.smooth(skin_database);
 //            for(int i = 0; i < train_filtered_gluc.length; i ++)
 //                System.out.println(actual_glucose_values[i] + " " + Arrays.toString(train_filtered_gluc[i]));
-
-
-
-
     }
 
     /** Create polynomial fitting of training data **/
@@ -1513,23 +1307,19 @@ public class SettingsTabFragment extends Fragment {
         coefficients = train.polynomialFit(train_filtered_gluc, actual_glucose_values);
     }
 
-
     /** Principle Component Analysis of training data **/
     public void train_PCA(){
-
         data_PCA.setup(train_filtered_gluc.length, train_filtered_gluc[0].length);
 
         for (int i = 0; i < train_filtered_gluc.length; i++)
             data_PCA.addSample(train_filtered_gluc[i]);
 
         data_PCA.computeBasis(PCA_COMPONENTS);
-
     }
 
     /** Test data against Training Data **/
     public void filterTesting(){
-        if((actual_glucose_values.length - size)<=0)
-        {
+        if((actual_glucose_values.length - size)<=0){
 //            float data[] = glucose_array;
 ////            float data[] = {1,2,3,4,5,6,7,8,9,10};
 //            double gluc_double[] = new double[data.length];
@@ -1547,9 +1337,7 @@ public class SettingsTabFragment extends Fragment {
     }
 
     public float testPolyFit(){
-
-        if((actual_glucose_values.length - size)<=0)
-        {
+        if((actual_glucose_values.length - size)<=0){
             double sum = 0, average, exp;
             float result=0;
 
@@ -1565,14 +1353,12 @@ public class SettingsTabFragment extends Fragment {
                 result += coefficients[i] * pow(average,exp);
 //            System.out.println(String.valueOf(result));
                 //System.out.println(coefficients[i]);
-
             }
 
             System.out.println(String.valueOf(result));
             return result;
         }
-        else
-        {
+        else{
             Toast.makeText(getActivity(), "Add more samples", Toast.LENGTH_SHORT).show();
             return 0.0f;
         }
@@ -1587,35 +1373,27 @@ public class SettingsTabFragment extends Fragment {
 //            outputGlucose.setText(String.valueOf(x));
             return (float)x;
         }
-        else
-        {
+        else{
             Toast.makeText(getActivity(), "Add more samples", Toast.LENGTH_SHORT).show();
             return 0.0f;
         }
-
     }
 
-    public void trainBeerLambert()
-    {
+    public void trainBeerLambert(){
         absorptions = train_filtered_skin;
 
         for(int i = 0; i < absorptions.length; i ++)
             for(int j = 0; j < absorptions[i].length; j ++)
                 absorptions[i][j] = absorptions[i][j]/SKIN_THICKNESS;
 
-
         for(int i = 0; i < absorptions.length; i ++)
             for(int j = 0; j < absorptions[i].length; j ++)
                 absorptions[i][j] = absorptions[i][j]/actual_glucose_values[i];
 
-
         coefficientsBEER = train.polynomialFitSkin(absorptions, actual_glucose_values);
-
-
     }
 
     public float testBeerLambert(){
-
         double sum = 0, averageReading;
         for (int i = 0; i < current_sample_gluc.length; i ++ )
             sum += current_sample_gluc[i];
@@ -1624,7 +1402,4 @@ public class SettingsTabFragment extends Fragment {
         finalOutputGlucose =  averageReading/(coefficientsBEER* glucose_result);
         return (float)finalOutputGlucose;
     }
-
-
-
 }
