@@ -67,19 +67,19 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     private Cursor cursor;
 
     //create user bio table//removed excess parts
-    private static final String TABLE_CREATE_USER_BIOS = "CREATE TABLE " + TABLE_USERS_BIO + "("+
-            COLUMN_ID_B+" INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_NAME+" VARCHAR," +
+    private static final String TABLE_CREATE_USER_BIOS = "CREATE TABLE " + TABLE_USERS_BIO + " ("+
+            COLUMN_ID_B+" INTEGER PRIMARY KEY AUTOINCREMENT, " + COLUMN_NAME+" VARCHAR, " +
             COLUMN_AGE +" VARCHAR, "+ COLUMN_SEX +" VARCHAR, "+ COLUMN_WEIGHT +" DOUBLE, "+
             COLUMN_WEIGHT_UNIT +" VARCHAR, "+ COLUMN_HEIGHT +" DOUBLE, "+
             COLUMN_HEIGHT_INCH +" DOUBLE, "+ COLUMN_HEIGHT_UNIT +" VARCHAR, "+ COLUMN_WEIGHT_POS +
             " INTEGER, " + COLUMN_HEIGHT_POS + " INTEGER);";
 
     //create user table
-    private static final String TABLE_CREATE_USERS = "CREATE TABLE "+ TABLE_USERS + "(ID integer primary key not null, " +
+    private static final String TABLE_CREATE_USERS = "CREATE TABLE "+ TABLE_USERS + " (ID integer primary key not null, " +
             "user text not null, password text not null);";
 
     //create info table
-    private static final String TABLE_CREATE_INFO = "CREATE TABLE "+ TABLE_INFO + "(infoID integer primary key not null, " +
+    private static final String TABLE_CREATE_INFO = "CREATE TABLE "+ TABLE_INFO + " (infoID integer primary key not null, " +
             "userID integer not null, user text not null, glucose_reading integer not null, time_of_reading datetime not null, status not null);";
 
     //create a db helper based on context

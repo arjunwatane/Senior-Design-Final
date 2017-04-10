@@ -1305,25 +1305,25 @@ public class SettingsTabFragment extends Fragment {
     }
 
     //train glucose and skin
-    public void train(){
+    public void train() {
         readings = 0;
         int testing_DEMO = 0;
-        if(testing_DEMO == 1){
+        if (testing_DEMO == 1) {
             data_cnt = 0;
 //            System.out.println(glucose_array);
             glucose_array = new float[SAMPLE_LENGTH];
 //            System.out.println(glucose_array);
-        }
-        else{if(actual_glucose_values.length-size <= 0)
-        {
+        } else {
+            if (actual_glucose_values.length - size <= 0) {
 //            filter();
-            train_polyfit();
+                train_polyfit();
 //            train_PCA();
 
 //            trainBeerLambert();
-            Toast.makeText(getActivity(), "Databases are filtered and trained.", Toast.LENGTH_SHORT).show();
-            size++;
+                Toast.makeText(getActivity(), "Databases are filtered and trained.", Toast.LENGTH_SHORT).show();
+                size++;
 
+            }
         }
     }
 
