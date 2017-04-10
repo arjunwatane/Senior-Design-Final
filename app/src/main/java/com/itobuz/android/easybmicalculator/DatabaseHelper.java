@@ -24,17 +24,12 @@ import static java.security.AccessController.getContext;
  * Created by Debasis on 26/9/16.
  * Modified by Justyn
  */
-
 public class DatabaseHelper extends SQLiteOpenHelper{
-//    private static final String DATABASE_NAME = "bmi_calculation";
-//    public static final String DATABASE_TABLE_NAME = "BmiPersons";
-//    private static final int DATABASE_VERSION = 1;
     private static final int DATABASE_VERSION = 1;//SCHEMA
     private static final String DATABASE_NAME = "users.db";
     private static final String TABLE_USERS = "users";
     public static final String TABLE_USERS_BIO = "usersbio";
-
-    //use col_id for bio data
+    //bio data
     public static final String COLUMN_ID_B = "id";
     private static final String COLUMN_NAME = "name";
     public static final String COLUMN_AGE = "age";
@@ -49,7 +44,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     private static final String COLUMN_STATUS = "status";
     private static final String COLUMN_WEIGHT_POS = "wpos";
     private static final String COLUMN_HEIGHT_POS = "hpos";
-    //
+    //user info for glucose storage
     private static final String TABLE_INFO = "userinfo";
     private static final String COLUMN_ID = "ID";
     private static final String COLUMN_INFOID = "infoID";
@@ -84,7 +79,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
             "user text not null, password text not null);";
 
     //create info table
-    private static final String TABLE_CREATE_INFO = "CREATE TABLE "+ TABLE_INFO + "(infoID integer primary key not null," +
+    private static final String TABLE_CREATE_INFO = "CREATE TABLE "+ TABLE_INFO + "(infoID integer primary key not null, " +
             "userID integer not null, user text not null, glucose_reading integer not null, time_of_reading datetime not null, status not null);";
 
     //create a db helper based on context
@@ -159,7 +154,6 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 
         return true;
     }
-
 
     //insert user bio data into table
     public boolean insertUserBio(int age, String sex, double weight, String wunit, double height,
@@ -332,12 +326,11 @@ public class DatabaseHelper extends SQLiteOpenHelper{
      * Method lastBmiId
      * @return int lastId
      */
-
     public int lastGluId(){
         load();
         db = this.getReadableDatabase("test");
         String status="1";
-        String query = "SELECT " + COLUMN_ID +" FROM "+ TABLE_INFO +" WHERE " + COLUMN_STATUS +" = '" + status + " AND user = ? ' ORDER BY "+COLUMN_ID+"  DESC limit 1";
+        String query = "SELECT " + COLUMN_ID +" FROM "+ TABLE_INFO +" WHERE " + COLUMN_STATUS +" = " + status + " AND user = ? ' ORDER BY "+COLUMN_ID+"  DESC limit 1";
         db = this.getReadableDatabase("test");
         cursor = db.rawQuery(query, new String[]{Hold.getName()});
         if (cursor != null && cursor.moveToFirst()) {
@@ -405,10 +398,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     }
 
     //load the db by provided context
-    public void load()
-    {
-        SQLiteDatabase.loadLibs(context);
-    }
+    public void load(){ SQLiteDatabase.loadLibs(context); }
 
     public static class QuerySet{
         public String glucoseReading;
@@ -431,6 +421,8 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         //writefile(name,values);
     }
 
+    //todo call readfile before write
+    //takes filename and adds user name to front
     //todo: add user name to filename
     //create a file
     //// TODO: 1/30/2017 change to accpet a filename and data
@@ -439,12 +431,13 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     //public void writefile(String name, double[][] d){
     //// TODO: 2/2/2017 trainvals glucdata trainres strings
     //assume input array has data
+    //public void writefile(String name, double[][] d){
     public void writefile(){
         System.out.println("Writing file: ");
-        String name = Hold.getName()+"trainvals";
+        String name = Hold.getName()+"trainvals"; //name = Hold.getName() + name;
         //file will have been read already--input array has data in it
-        try {
-            //deletefile("name");//// TODO: 2/2/2017 will need to keep this line for later
+        try{
+            deletefile("name");//// TODO: 2/2/2017 will need to keep this line for later
             FileOutputStream fos = context.openFileOutput(name, Context.MODE_APPEND);
 
             double d[][] = new double[1][20];
@@ -464,12 +457,11 @@ public class DatabaseHelper extends SQLiteOpenHelper{
                     if(j==d[i].length-1) sb.append('\n');
                 }
             }
-            //StringBuilder c = new StringBuilder(Arrays.toString(d));
-            //System.out.println(c);
+
             System.out.println(sb.toString().getBytes() + "'\n"+sb);
             //write bytestring to file
             fos.write(sb.toString().getBytes());
-
+            //close the out stream
             fos.close();
             System.out.println("words written");
         } catch (IOException e) {
@@ -480,12 +472,13 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     //todo: add user name to filename
     //accept filename as input to read a file
     //returns output doubles
-    //public double[][] readfile(String name){
-    public void readfile(){
-        String name = Hold.getName()+"trainvals";
+    public double[][] readfile(String name){
+    //public void readfile(){
+        String fname = Hold.getName()+name;
         System.out.println("Reading file: ");
+        BufferedReader reader;
         try{
-            BufferedReader reader = new BufferedReader(new InputStreamReader(context.openFileInput(name)));
+            reader = new BufferedReader(new InputStreamReader(context.openFileInput(fname)));
             String in;
             StringBuilder sb = new StringBuilder();
 
@@ -518,32 +511,37 @@ public class DatabaseHelper extends SQLiteOpenHelper{
             }
 
             //return the read file
-            //if(name=="trainvals") return ret[0];
-            //return ret;
+            //todo need to account for 1d array when it is returned to caller--handle at call
+//            if(fname.contains("trainvals")){
+//                double[][] r = new double[1][ret[0].length];
+//                double[] q = r;
+//                return r;
+//            }
+            return ret;
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
+        //silence error
+        return (new double[1][1]);
     }
-
 
     //delete a file by it filename
     public void deletefile(String fname){
         String user;
         //checks if user name needs to be added to file name
         if(!fname.contains(Hold.getName())){
-            user = Hold.getName();
-            user += fname;
+            user = Hold.getName() + fname;
         }
-        user = fname;
+        else user = fname;
 
-        //context.deleteFile(fname);
+        //context.deleteFile(user);
         System.out.println(user+" deleted: "+context.deleteFile(user));
     }
 
-    public  int charcount(StringBuilder sb){
+    public int charcount(StringBuilder sb){
         int count=0;
         for(int i=0; i<sb.length(); i++) if(sb.charAt(i)=='\n') count++;
         return count;
