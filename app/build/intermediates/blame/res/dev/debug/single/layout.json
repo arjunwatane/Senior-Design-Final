@@ -1,698 +1,350 @@
 [
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_singlechoice_material.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/select_dialog_item_material.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_layout_snackbar.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_snackbar.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/content_main.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/content_main.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_icon.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/notification_template_media.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_media.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_layout_tab_icon.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abs_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/abs_layout.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_menu_item.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_menu_item.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/notification_template_media.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_media.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_item_subheader.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item_subheader.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/cast_help_text.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_help_text.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_item_header.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item_header.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/place_autocomplete_item_powered_by_google.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/res/layout/place_autocomplete_item_powered_by_google.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_menu_item_action_area.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_menu_item_action_area.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/progress_indicator.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/progress_indicator.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/intro_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/intro_layout.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_screen_content_include.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/content_main.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/content_main.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/fragment_intro_content.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/fragment_intro_content.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/mr_controller_material_dialog_b.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_controller_material_dialog_b.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/two_fragment.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/two_fragment.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_screen_content_include.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_content_include.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_activity_chooser_view.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/cast_tracks_chooser_dialog_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_tracks_chooser_dialog_layout.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item_separator.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/two_fragment.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/two_fragment.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/one_fragment.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/one_fragment.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/place_autocomplete_item_powered_by_google.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/res/layout/place_autocomplete_item_powered_by_google.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/cast_tracks_chooser_dialog_row_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_select_dialog_material.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_select_dialog_material.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/place_autocomplete_item_prediction.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/res/layout/place_autocomplete_item_prediction.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_screen_content_include.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_content_include.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_item_separator.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item_separator.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_select_dialog_material.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/intro_layout2.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/intro_layout2.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/cast_tracks_chooser_dialog_layout.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_tracks_chooser_dialog_layout.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/progress_indicator.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/progress_indicator.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/row_history.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/row_history.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_singlechoice_material.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_bottom_navigation_item.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_layout_tab_text.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_tab_text.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item_subheader.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/notification_template_media_custom.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_media_custom.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_action_menu_layout.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_menu_layout.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_search_view.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_search_view.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/default_indicator.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/default_indicator.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/final_fragment.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/final_fragment.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/cast_mini_controller.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_mini_controller.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/fragment_history.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/fragment_history.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_screen_simple.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_simple.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_checkbox.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/notification_template_part_time.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_part_time.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/fragment_intro.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/fragment_intro.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/cast_intro_overlay.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_intro_overlay.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/three_fragment.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/three_fragment.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_popup_menu_header_item_layout.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_menu.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_menu.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/one_fragment.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/one_fragment.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_snackbar_include.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/four_fragment.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/four_fragment.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/activity_login.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_screen_toolbar.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_toolbar.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/cast_mini_controller.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_mini_controller.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_icon.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_bottom_sheet_dialog.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_bottom_sheet_dialog.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/three_fragment.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/three_fragment.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/mr_controller_material_dialog_b.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_controller_material_dialog_b.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_dialog_title_material.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/mr_volume_control.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_volume_control.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/fragment_intro.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/fragment_intro.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/fragment_home.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/fragment_home.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/mr_volume_control.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_volume_control.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_activity_chooser_view.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_multichoice_material.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/final_fragment.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/final_fragment.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_layout_tab_text.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_tab_text.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/activity_create_user.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/activity_create_user.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_menu_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_menu_item.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/mr_playback_control.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_playback_control.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_layout_snackbar.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_snackbar.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/fragment_intro2.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/fragment_intro2.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/mr_chooser_dialog.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_chooser_dialog.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_layout.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/activity_main.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/activity_main.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_up_container.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_layout_snackbar_include.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_snackbar_include.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/mr_chooser_dialog.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_chooser_dialog.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_expanded_menu_layout.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/progress_indicator.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/progress_indicator.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/fragment_intro.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/fragment_intro.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/mr_controller_volume_item.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_controller_volume_item.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/mr_chooser_list_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_chooser_list_item.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/fragment_home.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/fragment_home.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_up_container.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_search_dropdown_item_icons_2line.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_menu.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_menu.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_action_mode_bar.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_mode_bar.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_alert_dialog_button_bar_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_button_bar_material.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/fragment_home.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/fragment_home.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/support_simple_spinner_dropdown_item.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/place_autocomplete_item_prediction.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/res/layout/place_autocomplete_item_prediction.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_text_input_password_icon.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_text_input_password_icon.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/notification_template_media.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_media.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/mr_controller_material_dialog_b.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_controller_material_dialog_b.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_popup_menu_item_layout.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_action_bar_view_list_nav_layout.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_item_separator.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item_separator.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/place_autocomplete_progress.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/res/layout/place_autocomplete_progress.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_material.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/four_fragment.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/four_fragment.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_mode_close_item_material.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/intro_layout.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/intro_layout.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_simple.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/activity_main.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/select_dialog_item_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_item_material.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abs_layout.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/abs_layout.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_dialog_title_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_dialog_title_material.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/notification_template_lines_media.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_lines_media.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_alert_dialog_title_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_title_material.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/fragment_settings.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/fragment_settings.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_menu_item_layout.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/content_main.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/content_main.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_item_header.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/cast_tracks_chooser_dialog_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_tracks_chooser_dialog_layout.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_screen_toolbar.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/bottom_tab.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/bottom_tab.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/fragment_history.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/fragment_history.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/default_indicator.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/default_indicator.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_screen_simple_overlay_action_mode.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/fragment_intro_content.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/fragment_intro_content.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_alert_dialog_material.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/one_fragment.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/one_fragment.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/mr_chooser_list_item.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_chooser_list_item.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_layout_tab_icon.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_tab_icon.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/intro_layout2.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/intro_layout2.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/mr_controller_volume_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_controller_volume_item.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/cast_tracks_chooser_dialog_row_layout.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/fragment_settings.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/fragment_settings.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/cast_expanded_controller_activity.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_expanded_controller_activity.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_alert_dialog_title_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_title_material.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/notification_template_media_custom.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_media_custom.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_menu_layout.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_layout_snackbar.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_icon.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_icon.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_action_bar_title_item.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_title_item.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_menu_item_action_area.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_menu_item_action_area.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_checkbox.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_item_subheader.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item_subheader.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_item.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_radio.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/select_dialog_multichoice_material.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/cast_tracks_chooser_dialog_row_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_tracks_chooser_dialog_row_layout.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/bottom_tab.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/src/main/res/layout/bottom_tab.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/mr_chooser_dialog.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_chooser_dialog.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_expanded_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/cast_help_text.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_help_text.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_up_container.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/mr_playback_control.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_playback_control.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/place_autocomplete_item_powered_by_google.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/res/layout/place_autocomplete_item_powered_by_google.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_screen_simple_overlay_action_mode.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/four_fragment.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/four_fragment.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/mr_playback_control.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_playback_control.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_mode_bar.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_mode_bar.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/cast_intro_overlay.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_intro_overlay.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_bottom_sheet_dialog.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_bottom_sheet_dialog.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/mr_volume_control.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_volume_control.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_menu_item_action_area.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_menu_item_action_area.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abs_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/abs_layout.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_screen_simple.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_simple.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/cast_help_text.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_help_text.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/notification_template_lines_media.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_lines_media.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_search_view.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_search_view.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/fragment_settings.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/fragment_settings.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/row_history.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/row_history.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_item_header.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item_header.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/fragment_intro_content.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/fragment_intro_content.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/cast_expanded_controller_activity.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_expanded_controller_activity.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/two_fragment.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/two_fragment.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/intro_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/intro_layout.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/mr_controller_volume_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_controller_volume_item.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/place_autocomplete_item_prediction.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/res/layout/place_autocomplete_item_prediction.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/activity_login.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/activity_login.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/place_autocomplete_progress.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/res/layout/place_autocomplete_progress.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/select_dialog_item_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_item_material.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_bar_view_list_nav_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_item.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_bottom_navigation_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_dialog_title_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/cast_intro_overlay.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_intro_overlay.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/fragment_intro2.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/fragment_intro2.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/activity_main.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/activity_main.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_bar_title_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/notification_template_media_custom.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_media_custom.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/activity_create_user.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/activity_create_user.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/support_simple_spinner_dropdown_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/notification_template_part_time.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/bottom_tab.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/bottom_tab.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/notification_template_lines_media.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_lines_media.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/cast_expanded_controller_activity.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_expanded_controller_activity.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_mode_close_item_material.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/default_indicator.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/default_indicator.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_action_menu_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_action_menu_layout.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_layout_tab_icon.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_tab_icon.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_radio.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_radio.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/fragment_history.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/fragment_history.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/fragment_intro2.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/fragment_intro2.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/intro_layout2.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.github.paolorotolo/appintro/4.1.0/res/layout/intro_layout2.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_screen_toolbar.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/notification_template_part_time.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/notification_template_part_time.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/mr_chooser_list_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/24.0.0/res/layout/mr_chooser_list_item.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_text_input_password_icon.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/final_fragment.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/final_fragment.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_layout_snackbar_include.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_search_dropdown_item_icons_2line.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_search_dropdown_item_icons_2line.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/cast_mini_controller.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/10.0.1/res/layout/cast_mini_controller.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/activity_login.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/activity_login.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_select_dialog_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_select_dialog_material.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_alert_dialog_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_alert_dialog_material.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_menu.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_menu.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/three_fragment.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/three_fragment.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/row_history.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/src/main/res/layout/row_history.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_navigation_menu_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_navigation_menu_item.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_list_menu_item_checkbox.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_list_menu_item_checkbox.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/activity_create_user.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/src/main/res/layout/activity_create_user.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/place_autocomplete_progress.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/res/layout/place_autocomplete_progress.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_text_input_password_icon.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_text_input_password_icon.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/select_dialog_multichoice_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/select_dialog_multichoice_material.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/layout/design_bottom_navigation_item.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/layout/design_bottom_navigation_item.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/layout/abc_search_view.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/layout/abc_search_view.xml"
     }
 ]

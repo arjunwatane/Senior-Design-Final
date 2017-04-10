@@ -1,18 +1,10 @@
 [
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
     }
 ]

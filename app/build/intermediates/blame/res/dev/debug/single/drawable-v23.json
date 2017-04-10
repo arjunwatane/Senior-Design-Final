@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/drawable-v23/abc_control_background_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-v23/abc_control_background_material.xml"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/drawable-v23/abc_control_background_material.xml",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-v23/abc_control_background_material.xml"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-v23/abc_control_background_material.xml"
     }
 ]

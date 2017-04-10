@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="commons-math3-3.6.1-tests.commons-math3-3.6.1-tests">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/commons-math3-3.6.1-tests/commons-math3-3.6.1-tests.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

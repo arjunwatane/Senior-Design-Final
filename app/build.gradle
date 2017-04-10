@@ -48,6 +48,7 @@ dependencies {
     compile 'com.android.support.test.espresso:espresso-core:2.2.2'
     compile 'com.google.android.gms:play-services:10.0.1'
     compile 'net.zetetic:android-database-sqlcipher:3.5.4@aar'
+    compile 'org.apache.commons:commons-math3:3.6.1'
     testCompile 'junit:junit:4.12'
     compile group: 'org.ejml', name: 'all', version: '0.30'
 

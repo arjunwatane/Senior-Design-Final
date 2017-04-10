@@ -1,34 +1,18 @@
 [
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
     },
     {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
-        "source": "/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
-    },
-    {
-        "merged": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/res/merged/dev/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
-        "source": "/Users/Arjun/Desktop/Gold_1000/easy-bmi-calculator/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
+        "merged": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/res/merged/dev/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
     }
 ]

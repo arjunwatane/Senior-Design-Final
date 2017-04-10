@@ -1,7 +1,7 @@
-#Sun Apr 02 14:01:57 EDT 2017
-base.0=/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run_050ac94473791c2377e2180dff986d579ef603d7
-renamed.1=classes2.dex
-renamed.0=classes.dex
-file.1=/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_e88f518849605532a05b8f03e1f984a0caeec7a3/classes.dex
-base.1=/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_e88f518849605532a05b8f03e1f984a0caeec7a3
-file.0=/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run_050ac94473791c2377e2180dff986d579ef603d7/classes.dex
+#Mon Apr 10 16:21:04 EDT 2017
+base.0=/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_bdff7f5f95dcf68b7345ab8c40ec58f912779729
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run_080b948a4c06c16052a47434ad84ca5809634905/classes.dex
+base.1=/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run_080b948a4c06c16052a47434ad84ca5809634905
+file.0=/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/transforms/dex/dev/debug/folders/1000/10/instant-run-bootstrap_bdff7f5f95dcf68b7345ab8c40ec58f912779729/classes.dex
