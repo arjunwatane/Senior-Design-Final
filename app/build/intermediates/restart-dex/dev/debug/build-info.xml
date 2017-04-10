@@ -5,33 +5,39 @@
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="234737129854050"
-    token="-8138867653150169101"
-    verifier="MANIFEST_FILE_CHANGE" >
+    timestamp="417572066367996"
+    token="3501357540732007965"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="1568" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="220" />
+        duration="0" />
     <task
         name="verifier"
-        duration="16" />
-
-    <artifact
-        location="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/outputs/apk/app-dev-debug.apk"
-        type="MAIN" />
+        duration="0" />
 
     <build
-        timestamp="234737129854050"
-        verifier="MANIFEST_FILE_CHANGE" >
+        timestamp="416217913255974"
+        verifier="JAVA_RESOURCES_CHANGED" >
         <artifact
-            location="/Users/Arjun/Desktop/Gold-v3-Filedb/easy-bmi-calculator/app/build/outputs/apk/app-dev-debug.apk"
+            location="/Users/Arjun/PycharmProjects/Senior Design Final/app/build/outputs/apk/app-dev-debug.apk"
             type="MAIN" />
     </build>
+    <build
+        timestamp="417233312407489"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/transforms/dex/dev/debug/folders/1000/5/slice_1/classes.dex"
+            type="DEX" />
+    </build>
+    <build
+        timestamp="417572066367996"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

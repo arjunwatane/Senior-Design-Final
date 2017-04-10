@@ -61,6 +61,7 @@ import java.util.UUID;
 import static android.app.Activity.RESULT_CANCELED;
 import static android.app.Activity.RESULT_OK;
 import static java.lang.Math.pow;
+import org.apache.commons.math3.stat.regression.SimpleRegression;
 
 
 /**
@@ -75,8 +76,6 @@ public class SettingsTabFragment extends Fragment {
     DatabaseHelper mdb;
     Context context;
     ViewPager viewPager;
-//    private BluetoothManager mBluetoothManager;
-//    private BluetoothAdapter mBluetoothAdapter;
 
     private AppCompatEditText editAgeText;
     private AppCompatEditText editWeightText;
@@ -123,7 +122,7 @@ public class SettingsTabFragment extends Fragment {
     private PrincipleComponentAnalysis data_PCA = new PrincipleComponentAnalysis();
 
     private static final int NUM_SAMPLES = 10;
-    private static final int SAMPLE_LENGTH = 2;
+    private static final int SAMPLE_LENGTH = NUM_SAMPLES;
     private static final int PCA_COMPONENTS = 5;
     private static final double SKIN_THICKNESS = 1.5;
     private int readings = 0;
@@ -159,9 +158,11 @@ public class SettingsTabFragment extends Fragment {
     //Arjun
     public static float glucose_array[] = new float[SAMPLE_LENGTH];
     public static float skin_array[] = new float[SAMPLE_LENGTH];
+    private SimpleRegression simpleRegression = new SimpleRegression(true);
 
     public int data_cnt = 0;
-
+    private int test_flag = 0;
+    private double test_glucose_value = 0;
 
     private static final UUID MY_UUID =
             UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
@@ -271,18 +272,23 @@ public class SettingsTabFragment extends Fragment {
                             Toast.makeText(getActivity(), message, Toast.LENGTH_SHORT).show();
                             glucose_array[data_cnt] = readMessage;
                             data_cnt = data_cnt+1;
-                            if (data_cnt == SAMPLE_LENGTH)
-                            {
-//                                gluc_finish = 1;
-                                data_cnt = 0;
-                            }
+
+                        }
+                        if (data_cnt == SAMPLE_LENGTH)
+                        {
+                            Toast.makeText(getActivity(), "Got enough samples.", Toast.LENGTH_SHORT).show();
+                            gluc_finish = 1;
+                            //data_cnt = 0;
                         }
 
                     }
                     else if(gluc_finish == 1)
                     {
-                        if(data_cnt < SAMPLE_LENGTH)
+                        Toast.makeText(getActivity(), "Already have enough calibration data.", Toast.LENGTH_SHORT).show();
+
+                        /*if(data_cnt < SAMPLE_LENGTH)
                         {
+
                             String message = msg.obj.toString();
                             float readMessage = Float.valueOf(message);
                             System.out.println(readMessage);
@@ -294,7 +300,19 @@ public class SettingsTabFragment extends Fragment {
                                 gluc_finish = 0;
                                 data_cnt = 0;
                             }
-                        }
+                        }*/
+
+                    }
+                    if(test_flag == 1)
+                    {
+                        String message = msg.obj.toString();
+                        float readMessage = Float.valueOf(message);
+                        test_glucose_value =  (double) readMessage;
+                        System.out.println(message);
+                        test_flag = 0;
+
+                        test_glucose_value = 15.0;
+
                     }
                 }
             }
@@ -434,7 +452,7 @@ public class SettingsTabFragment extends Fragment {
         //Calculate button click action
         calculateBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                int testing_DEMO = 1;
+                int testing_DEMO = 0;
 
                 if((actual_glucose_values.length - size)<=0 && testing_DEMO == 0)
                 {
@@ -500,7 +518,10 @@ public class SettingsTabFragment extends Fragment {
 //                    bmiResult = 55.0f;
 //                    glucose_result = 55.0f;
 //                    finalGLUCOSE = 95.0f;
+//                    System.out.println("Prediction for 1.5 = " + simpleRegression.predict(1.5));
 
+                    glucose_result = (float)simpleRegression.predict(test_glucose_value);
+                    glucose_result = 100.0f;
                     if(mdb.updateBioAll(Integer.parseInt(userAge),userSex,userWeight,userWeightUnit,
                             userHight,userHightInch,userHeightUnit,0,0) || mdb.insertGlucLog(Hold.getName(),Hold.getId(),(int)glucose_result,gh.getGlucClassification(glucose_result))){
 
@@ -592,8 +613,8 @@ public class SettingsTabFragment extends Fragment {
         // Test Sample button onclick action
         btn_testsample.setOnClickListener(new View.OnClickListener() {
             public void onClick(View arg0) {
-                int testing_DEMO = 1;
-
+                int testing_DEMO = 0;
+                test_flag = 0;
                 if(testing_DEMO == 1)
                 {
                     String a = "A";
@@ -609,28 +630,34 @@ public class SettingsTabFragment extends Fragment {
 
                 }else
                 {
-                    data_cnt = 0;
-                    if ((actual_glucose_values.length - size) <= 0)
-                    {
-                        float data_gluc[] = glucose_array;
-                        double spec_double_gluc[] = new double[data_gluc.length];
-                        for (int i = 0; i < spec_double_gluc.length; i++)
-                        {
-                            spec_double_gluc[i] = (double) data_gluc[i];
-                        }
+                    test_flag = 1;
+                    String a = "A";
+                    if(connectThread != null)
+                        connectThread.connectedThread.write(a.getBytes());
 
-                        float data_skin[] = skin_array;
-                        double spec_double_skin[] = new double[data_skin.length];
-                        for (int i = 0; i < spec_double_skin.length; i++)
-                        {
-                            spec_double_skin[i] = (double) data_skin[i];
-                        }
+//                    data_cnt = 0;
+//                    if ((actual_glucose_values.length - size) <= 0)
+//                    {
+//                        float data_gluc[] = glucose_array;
+//                        double spec_double_gluc[] = new double[data_gluc.length];
+//                        for (int i = 0; i < spec_double_gluc.length; i++)
+//                        {
+//                            spec_double_gluc[i] = (double) data_gluc[i];
+//                        }
+//
+//                        float data_skin[] = skin_array;
+//                        double spec_double_skin[] = new double[data_skin.length];
+//                        for (int i = 0; i < spec_double_skin.length; i++)
+//                        {
+//                            spec_double_skin[i] = (double) data_skin[i];
+//                        }
+//
+//                        current_sample_gluc = spec_double_gluc;
+//                        current_sample_skin = spec_double_skin;
+//
+//                    } else
+//                        Toast.makeText(getActivity(), "Add more samples", Toast.LENGTH_SHORT).show();
 
-                        current_sample_gluc = spec_double_gluc;
-                        current_sample_skin = spec_double_skin;
-
-                    } else
-                        Toast.makeText(getActivity(), "Add more samples", Toast.LENGTH_SHORT).show();
                 }
 
             }
@@ -1428,26 +1455,23 @@ public class SettingsTabFragment extends Fragment {
 
         if(actual_glucose_values.length-size != 0)
         {
+            String a = "A";
+            if(connectThread != null)
+                connectThread.connectedThread.write(a.getBytes());
 
             double known_glucose = Double.parseDouble(known_glucose_string);
-            float data_gluc[] = glucose_array;
 
-            //glucose
-            double gluc_double[] = new double[data_gluc.length];
-            for (int i = 0; i < gluc_double.length; i++) {
-                gluc_double[i] = (double) data_gluc[i];
-            }
             actual_glucose_values[size] = known_glucose;
-            glucose_database[size] = gluc_double;
+//            glucose_database[size] = gluc_double;
 
 
             //skin
-            float data_skin[] = skin_array;
-            double skin_double[] = new double[data_skin.length];
-            for (int i = 0; i < skin_double.length; i++) {
-                skin_double[i] = (double) data_skin[i];
-            }
-            skin_database[size] = skin_double;
+//            float data_skin[] = skin_array;
+//            double skin_double[] = new double[data_skin.length];
+//            for (int i = 0; i < skin_double.length; i++) {
+//                skin_double[i] = (double) data_skin[i];
+//            }
+//            skin_database[size] = skin_double;
 
             size++;
             System.out.println(size);
@@ -1462,7 +1486,7 @@ public class SettingsTabFragment extends Fragment {
     //train glucose and skin
     public void train(){
         readings = 0;
-        int testing_DEMO = 1;
+        int testing_DEMO = 0;
         if(testing_DEMO == 1){
             data_cnt = 0;
 //            System.out.println(glucose_array);
@@ -1472,11 +1496,11 @@ public class SettingsTabFragment extends Fragment {
         }
         else{if(actual_glucose_values.length-size <= 0)
         {
-            filter();
+//            filter();
             train_polyfit();
-            train_PCA();
+//            train_PCA();
 
-            trainBeerLambert();
+//            trainBeerLambert();
             Toast.makeText(getActivity(), "Databases are filtered and trained.", Toast.LENGTH_SHORT).show();
             size++;
         }
@@ -1510,7 +1534,21 @@ public class SettingsTabFragment extends Fragment {
 
     /** Create polynomial fitting of training data **/
     public void train_polyfit(){
-        coefficients = train.polynomialFit(train_filtered_gluc, actual_glucose_values);
+//        coefficients = train.polynomialFit(train_filtered_gluc, actual_glucose_values);
+
+
+
+
+        double double_glucose[] = new double[glucose_array.length];
+        for (int i = 0; i < double_glucose.length; i++)
+        {
+            double_glucose[i] = (double) glucose_array[i];
+        }
+
+        simpleRegression.addData(new double[][] {actual_glucose_values, double_glucose});
+        System.out.println("slope = " + simpleRegression.getSlope());
+        System.out.println("intercept = " + simpleRegression.getIntercept());
+
     }
 
 
