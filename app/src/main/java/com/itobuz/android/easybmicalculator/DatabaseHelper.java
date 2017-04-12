@@ -225,6 +225,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
             while (cursor.moveToNext());
         }
         db.close();
+        cursor.close();
         return pass;
     }
 
@@ -240,6 +241,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         ID = cursor.getInt(0);
 
         db.close();
+        cursor.close();
         return ID;
     }
 
@@ -263,6 +265,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
             while (cursor.moveToNext());
         }
         db.close();
+        cursor.close();
 
         return queryResults;
     }
@@ -279,11 +282,17 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 
         db.close();
 
-        if(cursor.getCount()==0) return null;
+        if(cursor.getCount()==0){
+            cursor.close();
+            return null;
+        }
 
-        return new DataProvider(cursor.getString(0),cursor.getInt(1),cursor.getString(2),cursor.
+        DataProvider dp = new DataProvider(cursor.getString(0),cursor.getInt(1),cursor.getString(2),cursor.
                 getDouble(3),cursor.getString(4),cursor.getInt(5),cursor.getInt(6),cursor.getString
                 (7),cursor.getInt(8),cursor.getInt(9));
+
+        cursor.close();
+        return dp;
     }
 
     //replaces insertBmiRow()
