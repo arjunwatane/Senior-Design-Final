@@ -76,14 +76,12 @@ public class FinalFragment extends Fragment {
         if (getArguments() != null && getArguments().containsKey(ARG_LAYOUT_RES_ID)) {
             layoutResId = getArguments().getInt(ARG_LAYOUT_RES_ID);
         }
-
     }
 
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-
         View resultBmiView = inflater.inflate(R.layout.final_fragment, container,false);
 
         resultBmi = (TextView) resultBmiView.findViewById(R.id.result_bmi);
@@ -105,64 +103,8 @@ public class FinalFragment extends Fragment {
                     getHeight(),Hold.getInch(),Hold.getHunit(),Hold.getWpos(),Hold.getHpos())){
                 context = getContext().getApplicationContext();
 
+                System.out.println("inserted the user");
             }
-            //insertUserBio(int age, String sex, double weight, String wunit, double height,
-            //double inch, String hunit, int wpos, int hpos)
-
-            //get the user info
-            //DataProvider dp = mydb.searchInfo();
-
-            //no user bio
-/*            if(dp == null){
-                mydb.insertUserBio(0,"empty",0,"empty",0,0,"empty",0,0);
-            }
-
-            //db entry exists at least partially
-            else{
-                userAge = dp.getAge() > 0 ? dp.getAge() : 0;
-                userSex = dp.getSex().length()>0 ? dp.getSex() : "empty";
-                userWeight = dp.getWeight() > 0 ? dp.getWeight() : 0;
-                userWeightUnit = dp.getWeightunit().length()>0 ? dp.getWeightunit() : "empty";
-                userWeightUnitPos = dp.getWpos()!=0 ? dp.getWpos() : 0;
-                userHight = dp.getHeight()>0 ? dp.getHeight() : 0;
-                userHightInch = dp.getHeightinch()>0 ? dp.getHeightinch() : 0;
-                userHeightUnit = dp.getHeightunit().length()>0 ? dp.getHeightunit() : "empty";
-                userHeightUnitPos  = dp.getHpos()>0 ? dp.getHpos() : 0;
-                mydb.insertUserBio(userAge,userSex,userWeight,userWeightUnit,userHight,userHightInch,
-                        userHeightUnit,userWeightUnitPos,userHeightUnitPos);
-            }
-            */
-/*
-            SharedPreferences pref = getActivity().getPreferences(0);
-
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-            strDate = sdf.format(new Date());
-
-            userAge = pref.getString(USER_AGE, "0");
-            userSex = pref.getString(USER_SEX, "empty");
-
-            userWeight = Double.parseDouble(pref.getString(USER_WEIGHT, "0"));
-            userWeightUnit = pref.getString(USER_WEIGHT_UNIT, "empty");
-            userWeightUnitPos = pref.getInt(USER_WEIGHT_UNIT_POS, 0);
-
-            userHight = Double.parseDouble(pref.getString(USER_HEIGHT, "0"));
-            userHightInch = Double.parseDouble(pref.getString(USER_HEIGHT_INCH, "0"));
-            userHeightUnit = pref.getString(USER_HEIGHT_UNIT, "empty");
-            userHeightUnitPos = pref.getInt(USER_HEIGHT_UNIT_POS, 0);
-            //userStatus = 1;
-*/
-
-//            GlucHelper gh = new GlucHelper();
-//
-//            if(userWeightUnitPos==0 && userHeightUnitPos==0 ){
-//                bmiResult = (float) gh.getBMIKg(userHight,userWeight);
-//            }else if(userWeightUnitPos==1 && userHeightUnitPos==0 ) {
-//                bmiResult = (float) gh.getBMIKg(userHight,gh.lbToKgConverter(userWeight));
-//            }else if(userWeightUnitPos==0 && userHeightUnitPos==1 ) {
-//                bmiResult = (float) gh.getBMIKg(gh.feetInchToCmConverter(userHight, userHightInch),userWeight);
-//            }else if(userWeightUnitPos==1 && userHeightUnitPos==1 ) {
-//                bmiResult = (float) gh.getBMILb(userHight, userHightInch, userWeight);
-//            }
 
             //todo this might be where result is displayed--will need to change to gluc
             //result_bmi = Math.round(mydb.lastGluResult());

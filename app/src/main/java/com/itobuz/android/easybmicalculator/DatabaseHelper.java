@@ -62,8 +62,6 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 
     private int lastId;
     private float lastResult;
-    private String lastAge, lastWeight, lastWeightUnit, lastHeight, lastHeightUnit, lastHeightInch;
-    private String lastRadio;
     private Cursor cursor;
 
     //create user bio table//removed excess parts
@@ -249,11 +247,14 @@ public class DatabaseHelper extends SQLiteOpenHelper{
     public ArrayList<QuerySet> search(String username, int ID) {
         //   load(); //not sure why this was removed
         db = this.getReadableDatabase("test");
-        String query = "SELECT glucose_reading, time_of_reading FROM " + TABLE_INFO + " WHERE user = ? AND userID = ? ORDER BY time_of_reading DESC";
+        String query = "SELECT glucose_reading, time_of_reading, status FROM " + TABLE_INFO + " WHERE user = ? AND userID = ? ORDER BY time_of_reading DESC";
         Cursor cursor = db.rawQuery(query, new String[]{username, String.valueOf(ID)});
 
         ArrayList<QuerySet> queryResults = new ArrayList<QuerySet>();
-
+/*
+(infoID integer primary key not null, " +
+            "userID integer not null, user text not null, glucose_reading integer not null, time_of_reading datetime not null, status not null);";
+ */
         if(cursor.moveToFirst()){
             do {
                 QuerySet queryHolder = new QuerySet();
@@ -278,8 +279,10 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         //String query = "SELECT name, age, sex, weight, weightunit, height, heightinch, heightunit, wpos, hpos FROM " +
         String query = "SELECT * FROM " +
                 TABLE_USERS_BIO + " WHERE name = ?";
-
+System.out.println("name is : "+Hold.getName());
         Cursor cursor = db.rawQuery(query, new String[]{Hold.getName()});
+
+        System.out.println("is cursor: "+cursor.getCount()+" "+cursor.getColumnCount());
 
         db.close();
 
@@ -287,10 +290,28 @@ public class DatabaseHelper extends SQLiteOpenHelper{
             cursor.close();
             return null;
         }
+        /*
 
-        DataProvider dp = new DataProvider(cursor.getString(0),cursor.getInt(1),cursor.getString(2),cursor.
-                getDouble(3),cursor.getString(4),cursor.getInt(5),cursor.getInt(6),cursor.getString
-                (7),cursor.getInt(8),cursor.getInt(9));
+            0 COLUMN_ID_B+
+            1 COLUMN_NAME+
+            2 COLUMN_AGE
+            3 COLUMN_SEX
+            4 COLUMN_WEIGHT
+            5 COLUMN_WEIGHT_UNIT
+            6 COLUMN_HEIGHT
+            7 COLUMN_HEIGHT_INCH
+            8 COLUMN_HEIGHT_UNIT
+            9 COLUMN_WEIGHT_POS +
+            10 COLUMN_HEIGHT_POS
+         */
+        cursor.moveToFirst();
+        //(String name 1, int age 2, String sex 3, double weight 4, String weightunit 5, double height 6, double heightinch 7, String heightunit 8, int wpos 9, int hpos 10){
+        DataProvider dp = new DataProvider(cursor.getString(1),cursor.getInt(2),cursor.getString(3),cursor.getDouble(4),
+                cursor.getString(5),cursor.getDouble(6),cursor.getDouble(7),cursor.getString(8),
+                cursor.getInt(9),cursor.getInt(10));
+//        DataProvider dp = new DataProvider(cursor.getString(0),cursor.getInt(1),cursor.getString(2),cursor.
+//                getDouble(3),cursor.getString(4),cursor.getInt(5),cursor.getInt(6),cursor.getString
+//                (7),cursor.getInt(8),cursor.getInt(9));
 
         cursor.close();
         return dp;
@@ -316,7 +337,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 
         db.insert(TABLE_INFO, null, values);
         db.close();
-
+        cursor.close();
         return true;
     }
 
@@ -340,7 +361,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         load();
         db = this.getReadableDatabase("test");
         String status="1";
-        String query = "SELECT " + COLUMN_ID +" FROM "+ TABLE_INFO +" WHERE " + COLUMN_STATUS +" = " + status + " AND user = ? ' ORDER BY "+COLUMN_ID+"  DESC limit 1";
+        String query = "SELECT " + COLUMN_INFOID +" FROM "+ TABLE_INFO +" WHERE " + COLUMN_STATUS +" = " + status + " AND user = ? ' ORDER BY "+COLUMN_INFOID+"  DESC limit 1";
         db = this.getReadableDatabase("test");
         cursor = db.rawQuery(query, new String[]{Hold.getName()});
         if (cursor != null && cursor.moveToFirst()) {
@@ -357,12 +378,13 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         load();
         db = this.getReadableDatabase("test");
         String status="1";
-        String query = "SELECT " + COLUMN_RESULT +" FROM "+ TABLE_INFO+" WHERE " + COLUMN_STATUS +" = '" + status + "' ORDER BY "+COLUMN_ID+"  DESC limit 1";
+        String query = "SELECT " + COLUMN_GLUCOSE +" FROM "+ TABLE_INFO+" WHERE user = " + Hold.getName() + " ORDER BY "+COLUMN_INFOID+"  DESC limit 1";
         db = this.getReadableDatabase("test");
         cursor = db.rawQuery(query, null);
         if (cursor != null && cursor.moveToFirst()) {
             lastResult = cursor.getInt(0); //The 0 is the column index, we only have 1 column, so the index is 0
         }
+        cursor.close();
         return lastResult;
     }
 

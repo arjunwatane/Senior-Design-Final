@@ -462,7 +462,7 @@ public class SettingsTabFragment extends Fragment {
                     glucose_result = (float)simpleRegression.predict(test_glucose_value);
                     glucose_result = 100.0f;
                     if(mdb.updateBioAll(Integer.parseInt(userAge),userSex,userWeight,userWeightUnit,
-                                userHight,userHightInch,userHeightUnit,0,0) || mdb.insertGlucLog
+                                userHight,userHightInch,userHeightUnit,0,0) && mdb.insertGlucLog
                                 (Hold.getName(),Hold.getId(),(int)glucose_result,gh
                                 .getGlucClassification(glucose_result))){
                         context = getContext().getApplicationContext();
@@ -608,7 +608,8 @@ public class SettingsTabFragment extends Fragment {
         DataProvider c = mdb.searchInfo();
         //c.moveToLast();
         if (c != null){
-            editAgeText.setText(c.getAge());
+            System.out.println("Showing user info");
+            editAgeText.setText(Integer.toString(c.getAge()));
             editWeightText.setText(Double.toString(c.getWeight()));
             editHeightText.setText(Double.toString(c.getHeight()));
 
@@ -642,6 +643,7 @@ public class SettingsTabFragment extends Fragment {
                 editFemale.setChecked(true);
             }
         }
+        else System.out.println("Failure of the system show");
     }
 
     public void settingsHeightSpinners(){
