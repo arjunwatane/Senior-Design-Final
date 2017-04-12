@@ -203,6 +203,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 
         db.insert(TABLE_USERS, null, values);
         db.close();
+        cursor.close();
     }
 
     public String searchPass(String username){

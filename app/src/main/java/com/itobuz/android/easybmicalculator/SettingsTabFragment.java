@@ -161,7 +161,6 @@ public class SettingsTabFragment extends Fragment {
     private static final UUID MY_UUID =
             UUID.fromString("00001101-0000-1000-8000-00805F9B34FB");
 
-
     private static final int MESSAGE_READ = 0;
 
     private BluetoothManager mBluetoothManager;
