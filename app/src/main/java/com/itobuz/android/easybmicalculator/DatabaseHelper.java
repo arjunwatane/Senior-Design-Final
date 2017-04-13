@@ -200,8 +200,8 @@ public class DatabaseHelper extends SQLiteOpenHelper{
         values.put(COLUMN_PASSWORD, u.getPassword());
 
         db.insert(TABLE_USERS, null, values);
-        db.close();
         cursor.close();
+        db.close();
     }
 
     public String searchPass(String username){
@@ -223,8 +223,8 @@ public class DatabaseHelper extends SQLiteOpenHelper{
             }
             while (cursor.moveToNext());
         }
-        db.close();
         cursor.close();
+        db.close();
         return pass;
     }
 
@@ -239,8 +239,8 @@ public class DatabaseHelper extends SQLiteOpenHelper{
 
         ID = cursor.getInt(0);
 
-        db.close();
         cursor.close();
+        db.close();
         return ID;
     }
 
@@ -266,8 +266,9 @@ public class DatabaseHelper extends SQLiteOpenHelper{
             }
             while (cursor.moveToNext());
         }
-        db.close();
+
         cursor.close();
+        db.close();
 
         return queryResults;
     }
@@ -284,9 +285,8 @@ System.out.println("name is : "+Hold.getName());
 
         System.out.println("is cursor: "+cursor.getCount()+" "+cursor.getColumnCount());
 
-        db.close();
-
         if(cursor.getCount()==0){
+            db.close();
             cursor.close();
             return null;
         }
@@ -314,6 +314,8 @@ System.out.println("name is : "+Hold.getName());
 //                (7),cursor.getInt(8),cursor.getInt(9));
 
         cursor.close();
+        db.close();
+
         return dp;
     }
 
@@ -336,8 +338,9 @@ System.out.println("name is : "+Hold.getName());
         values.put(COLUMN_STATUS,status);
 
         db.insert(TABLE_INFO, null, values);
-        db.close();
         cursor.close();
+        db.close();
+
         return true;
     }
 
@@ -349,6 +352,7 @@ System.out.println("name is : "+Hold.getName());
         db = this.getReadableDatabase("test");
         Cursor cursor = db.rawQuery(query, new String[]{Hold.getName()});
         int count = cursor.getCount();
+        cursor.close();
         db.close();
         return count;
     }
@@ -367,6 +371,9 @@ System.out.println("name is : "+Hold.getName());
         if (cursor != null && cursor.moveToFirst()) {
             lastId = cursor.getInt(0); //The 0 is the column index, we only have 1 column, so the index is 0
         }
+
+        cursor.close();
+        db.close();
         return lastId;
     }
 
@@ -385,6 +392,7 @@ System.out.println("name is : "+Hold.getName());
             lastResult = cursor.getInt(0); //The 0 is the column index, we only have 1 column, so the index is 0
         }
         cursor.close();
+        db.close();
         return lastResult;
     }
 
@@ -398,6 +406,7 @@ System.out.println("name is : "+Hold.getName());
         String getlastquery = "SELECT " + COLUMN_INFOID +", "+ COLUMN_USERID +", " + COLUMN_USER+", " + COLUMN_GLUCOSE +", " + COLUMN_TIMESTAMP +", " + COLUMN_STATUS +" FROM "+ TABLE_INFO+";";
         db = this.getReadableDatabase("test");
         cursor = db.rawQuery(getlastquery, null);
+        db.close();
         return cursor;
     }
 
@@ -420,6 +429,7 @@ System.out.println("name is : "+Hold.getName());
 //        String sId = String.valueOf(id);
 //        String status="1";
         db.execSQL("DELETE FROM "+TABLE_INFO+" WHERE "+COLUMN_INFOID+" = " + id); // + "' AND " + COLUMN_STATUS +" = '" + status + "'"
+        db.close();
     }
 
     String randomString(int len){
