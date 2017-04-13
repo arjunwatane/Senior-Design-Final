@@ -289,7 +289,7 @@ public class SettingsTabFragment extends Fragment {
                         System.out.println(message);
                         test_flag = 0;
 
-                        test_glucose_value = 15.0;
+//                        test_glucose_value = 15.0;
 
                     }
                 }
@@ -460,7 +460,7 @@ public class SettingsTabFragment extends Fragment {
 //                    System.out.println("Prediction for 1.5 = " + simpleRegression.predict(1.5));
 
                     glucose_result = (float)simpleRegression.predict(test_glucose_value);
-                    glucose_result = 100.0f;
+//                    glucose_result = 100.0f;
                     if(mdb.updateBioAll(Integer.parseInt(userAge),userSex,userWeight,userWeightUnit,
                                 userHight,userHightInch,userHeightUnit,0,0) && mdb.insertGlucLog
                                 (Hold.getName(),Hold.getId(),(int)glucose_result,gh
@@ -697,6 +697,7 @@ public class SettingsTabFragment extends Fragment {
                         for(int i = 0; i < deviceList.size(); i++){
                             if(deviceList.get(i).getName().startsWith("HC")){
                                 msptracker = i;
+                                Toast.makeText(getActivity(), "Bluetooth is connected.", Toast.LENGTH_SHORT).show();
                             }
                             if(deviceList.get(i).getName().startsWith("Nonin")){
                                 nonintracker = i;
@@ -1315,18 +1316,25 @@ public class SettingsTabFragment extends Fragment {
             glucose_array = new float[SAMPLE_LENGTH];
 //            System.out.println(glucose_array);
         } else {
-            if (actual_glucose_values.length - size <= 0) {
-//            filter();
-                train_polyfit();
-//            train_PCA();
+                if (actual_glucose_values.length - size == 0) {
+    //            filter();
+                    train_polyfit();
+    //            train_PCA();
 
-//            trainBeerLambert();
-                Toast.makeText(getActivity(), "Databases are filtered and trained.", Toast.LENGTH_SHORT).show();
-                size++;
+    //            trainBeerLambert();
+                    Toast.makeText(getActivity(), "Databases are filtered and trained.", Toast.LENGTH_SHORT).show();
+                    size++;
 
+                }
+                else if(actual_glucose_values.length - size < 0){
+                    data_cnt = 0;
+                    glucose_array = new float[SAMPLE_LENGTH];
+                    size = 0;
+                    Toast.makeText(getActivity(), "Databases are emptied.", Toast.LENGTH_SHORT).show();
+                }
             }
         }
-    }
+
 
     /** TRAIN DATA and return derived + smoothed database **/
     public void filter() {

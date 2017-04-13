@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="23"
+    abi="armeabi-v7a,armeabi"
+    api-level="24"
     density="xxhdpi"
     format="8"
     plugin-version="2.2.3"
-    timestamp="417572066367996"
+    timestamp="527314170268204"
     token="3501357540732007965"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -23,21 +23,14 @@
         duration="0" />
 
     <build
-        timestamp="416217913255974"
-        verifier="JAVA_RESOURCES_CHANGED" >
+        timestamp="527119041710820"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/Arjun/PycharmProjects/Senior Design Final/app/build/outputs/apk/app-dev-debug.apk"
             type="MAIN" />
     </build>
     <build
-        timestamp="417233312407489"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/Arjun/PycharmProjects/Senior Design Final/app/build/intermediates/transforms/dex/dev/debug/folders/1000/5/slice_1/classes.dex"
-            type="DEX" />
-    </build>
-    <build
-        timestamp="417572066367996"
+        timestamp="527314170268204"
         verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>

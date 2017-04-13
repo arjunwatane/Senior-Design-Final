@@ -109,11 +109,13 @@ public class FourFragment extends Fragment implements ISlidePolicy {
         //DatabaseHelper db = new DatabaseHelper(this.getContext());
         //db.updateBio4Policy(Double.parseDouble(userHeight), Double.parseDouble(userHeightInch),
           //      userHeightUnit, userHeightUnitPos);
-        Hold.setHeight(Double.parseDouble(userHeight));
-        Hold.setInch(Double.parseDouble(userHeightInch));
-        Hold.setHunit(userHeightUnit);
-        Hold.setHpos(userHeightUnitPos);
-
+        if(userHeight.length() > 0)
+        {
+            Hold.setHeight(Double.parseDouble(userHeight));
+            Hold.setInch(Double.parseDouble(userHeightInch));
+            Hold.setHunit(userHeightUnit);
+            Hold.setHpos(userHeightUnitPos);
+        }
         return userHeight.length() > 0;
     }
 

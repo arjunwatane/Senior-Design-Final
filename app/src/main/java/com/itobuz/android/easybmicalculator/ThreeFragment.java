@@ -85,10 +85,12 @@ public class ThreeFragment extends Fragment implements ISlidePolicy {
         //DatabaseHelper db = new DatabaseHelper(this.getContext());
         //db.updateBio3Policy(Double.parseDouble(userWeight), userWeightUnit, userWeightUnitPos);
 
-        Hold.setWeight(Double.parseDouble(userWeight));
-        Hold.setWunit(userWeightUnit);
-        Hold.setWpos(userWeightUnitPos);
-
+        if(userWeight.length() > 0)
+        {
+            Hold.setWeight(Double.parseDouble(userWeight));
+            Hold.setWunit(userWeightUnit);
+            Hold.setWpos(userWeightUnitPos);
+        }
         return userWeight.length() > 0;
     }
 
