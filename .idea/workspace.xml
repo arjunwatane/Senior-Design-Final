@@ -10,7 +10,95 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a3dc266d-369a-4523-a9fa-67d4201ac3d8" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDevDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDevDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDevDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDevDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDevDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDevDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$12.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$14.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectedThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectedThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/10.0.1/jars/classes.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/10.0.1/jars/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/dev/debug/instant-run-bootstrap.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-classes/dev/debug/instant-run-bootstrap.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/dev/debug/instant-run.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/dev/debug/instant-run.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$12.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$14.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectedThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectedThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/dev/debug/com/itobuz/android/easybmicalculator/SettingsTabFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-dev/debug.ir.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-resources/resources-dev/debug.ir.ap_" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/dev/debug/instant-run.zip" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/dev/debug/instant-run.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/dev/debug/folders/1000/5/slice_1/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/dev/debug/folders/1000/5/slice_1/classes.dex" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/App.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/CreateUser.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/CreateUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/CustomViewPager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/CustomViewPager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/GaugeView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/GaugeView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/IntroActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/IntroActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$12.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$14.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectedThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectedThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SettingsTabFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SplashActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/dev/debug/folders/1/5/main/com/itobuz/android/easybmicalculator/SplashActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/App.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/App.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/CreateUser.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/CreateUser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/CustomViewPager.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/CustomViewPager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/GaugeView.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/GaugeView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/IntroActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/IntroActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/LoginActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/LoginActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$10.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$12.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$12.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$13.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$13.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$14.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$8.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$9.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectedThread.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment$ConnectedThread.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SettingsTabFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SplashActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRunSlicer/dev/debug/folders/1/5/slice_1/com/itobuz/android/easybmicalculator/SplashActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-dev-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-dev-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/dev/debug/single/drawable-hdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/dev/debug/single/drawable-hdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/dev/debug/single/drawable-xhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/dev/debug/single/drawable-xhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/dev/debug/single/drawable-xxhdpi-v4.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/dev/debug/single/drawable-xxhdpi-v4.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDevDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDevDebugAndroidTestResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDevDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDevDebugResources/compile-file-map.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDevDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDevDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDevDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDevDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDevDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDevDebug/dex-renamer-state.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDevDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDevDebug/file-input-save-data.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/dev/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/dev/debug/build-info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/itobuz/android/easybmicalculator/SettingsTabFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/itobuz/android/easybmicalculator/SettingsTabFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="Senior Design Final.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,11 +131,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SettingsTabFragment.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SettingsTabFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itobuz/android/easybmicalculator/SettingsTabFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18330">
-              <caret line="1286" column="0" selection-start-line="1286" selection-start-column="0" selection-end-line="1286" selection-end-column="0" />
+            <state relative-caret-position="364">
+              <caret line="292" column="0" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#SettingsTabFragment#0" expanded="false" />
               </folding>
@@ -65,10 +153,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FourFragment.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FourFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itobuz/android/easybmicalculator/FourFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
+            <state relative-caret-position="1575">
               <caret line="118" column="39" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
               <folding />
             </state>
@@ -4488,8 +4576,8 @@
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/itobuz/android/easybmicalculator/ThreeFragment.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/itobuz/android/easybmicalculator/SettingsTabFragment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/itobuz/android/easybmicalculator/FourFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/itobuz/android/easybmicalculator/SettingsTabFragment.java" />
       </list>
     </option>
   </component>
@@ -4523,6 +4611,9 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -4585,16 +4676,13 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
-    <property name="device.picker.selection" value="ZY223VDV2P" />
+    <property name="device.picker.selection" value="Nexus_5_API_23" />
     <property name="FullScreen" value="true" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
@@ -4792,11 +4880,19 @@
       <option name="presentableId" value="Default" />
       <updated>1491851063069</updated>
     </task>
+    <task id="LOCAL-00001" summary="truuuuuu">
+      <created>1492112198273</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1492112198273</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4806,22 +4902,22 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.212" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12933333" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18933333" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29466668" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23667206" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23667206" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24959612" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -4833,6 +4929,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="truuuuuu" />
+    <option name="LAST_COMMIT_MESSAGE" value="truuuuuu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -5016,14 +5116,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
           <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
@@ -5104,8 +5204,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itobuz/android/easybmicalculator/SettingsTabFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18330">
-          <caret line="1286" column="0" selection-start-line="1286" selection-start-column="0" selection-end-line="1286" selection-end-column="0" />
+        <state relative-caret-position="364">
+          <caret line="292" column="0" selection-start-line="292" selection-start-column="0" selection-end-line="292" selection-end-column="0" />
           <folding>
             <element signature="docComment;class#SettingsTabFragment#0" expanded="false" />
           </folding>
@@ -5122,7 +5222,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itobuz/android/easybmicalculator/FourFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
+        <state relative-caret-position="1575">
           <caret line="118" column="39" selection-start-line="118" selection-start-column="39" selection-end-line="118" selection-end-column="39" />
           <folding />
         </state>

@@ -289,7 +289,7 @@ public class SettingsTabFragment extends Fragment {
                         System.out.println(message);
                         test_flag = 0;
 
-//                        test_glucose_value = 15.0;
+                        test_glucose_value = 50.0;
 
                     }
                 }
@@ -460,6 +460,7 @@ public class SettingsTabFragment extends Fragment {
 //                    System.out.println("Prediction for 1.5 = " + simpleRegression.predict(1.5));
 
                     glucose_result = (float)simpleRegression.predict(test_glucose_value);
+                    System.out.println("GLUCOSE RESULT = " + glucose_result);
 //                    glucose_result = 100.0f;
                     if(mdb.updateBioAll(Integer.parseInt(userAge),userSex,userWeight,userWeightUnit,
                                 userHight,userHightInch,userHeightUnit,0,0) && mdb.insertGlucLog
@@ -1287,6 +1288,7 @@ public class SettingsTabFragment extends Fragment {
 
             double known_glucose = Double.parseDouble(known_glucose_string);
 
+            glucose_array[size] = 50.0f;
             actual_glucose_values[size] = known_glucose;
 //            glucose_database[size] = gluc_double;
 
@@ -1330,6 +1332,7 @@ public class SettingsTabFragment extends Fragment {
                     data_cnt = 0;
                     glucose_array = new float[SAMPLE_LENGTH];
                     size = 0;
+                    gluc_finish = 0;
                     Toast.makeText(getActivity(), "Databases are emptied.", Toast.LENGTH_SHORT).show();
                 }
             }
@@ -1365,7 +1368,15 @@ public class SettingsTabFragment extends Fragment {
             double_glucose[i] = (double) glucose_array[i];
         }
 
-        simpleRegression.addData(new double[][] {actual_glucose_values, double_glucose});
+//        simpleRegression.addData(new double[][] { actual_glucose_values, double_glucose});
+//        simpleRegression.addData(new double[][] { double_glucose,  actual_glucose_values});
+//        double addingData[][] = new double[][]{actual_glucose_values, double_glucose};
+//        simpleRegression.addData(addingData);
+        for (int i = 0; i < actual_glucose_values.length; i ++)
+        {
+            simpleRegression.addData(actual_glucose_values[i], double_glucose[i]);
+        }
+
         System.out.println("slope = " + simpleRegression.getSlope());
         System.out.println("intercept = " + simpleRegression.getIntercept());
 
