@@ -35,7 +35,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/final_bmi_text"
+            android:text="Time to calibrate the app"
             android:textAlignment="center"
             android:textSize="16sp"
             android:id="@+id/final_bmi_text"
@@ -47,7 +47,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/final_bmi_text2"
+            android:text="and calculate glucose!"
             android:textAlignment="center"
             android:textSize="16sp"
             android:id="@+id/final_bmi_text2"

@@ -105,17 +105,12 @@ public class BmiHelper {
         if (bmi <= 0) return "Unknown";
         String classification;
 
-        if(bmi == 0)
-            classification = "Same solution.";
-        else if(bmi == 1)
-            classification = "First sample is glucose.";
-        else if(bmi == 2)
-            classification = "Second sample is glucose.";
-        else if (bmi < 70.0) {
+
+        if (bmi < 15.0) {
             classification = "Too low";
-        } else if (bmi < 110) {
+        } else if (bmi < 35.0) {
             classification = "Normal";
-        } else if (bmi < 130) {
+        } else if (bmi < 50.0) {
             classification = "Too high";
         } else {
             classification = "Dangerously high";

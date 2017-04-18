@@ -77,17 +77,19 @@ public class GlucHelper {
      * @return Glucose classification based on the glu number
      */
     public String getGlucClassification (double glu) {
+        System.out.println(glu);
         if (glu <= 0) return "Unknown";
         String classification;
 
-        if (glu < 70.0) {
-            classification = "Low";
-        } else if (glu < 110) {
+
+        if (glu < 15.0) {
+            classification = "Too low";
+        } else if (glu < 35.0) {
             classification = "Normal";
-        } else if (glu < 130) {
-            classification = "High";
+        } else if (glu < 50.0) {
+            classification = "Too high";
         } else {
-            classification = "Dangerously High";
+            classification = "Dangerously high";
         }
 
         return classification;

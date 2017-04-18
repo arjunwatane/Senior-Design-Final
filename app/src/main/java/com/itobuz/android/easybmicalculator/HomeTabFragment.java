@@ -139,18 +139,19 @@ public class HomeTabFragment extends Fragment {
             bmi_result = mdb.lastGluResult();
 
             //set gauge meter value
-            mGaugeView.setTargetValue(bmi_result);
+            if(bmi_result > 50) mGaugeView.setTargetValue(49);
+            else    mGaugeView.setTargetValue(bmi_result);
 
             // show result in text view
             infoResult.setText(""+bmi_result);
 
-            if(bmi_result < 70) {
+            if(bmi_result < 15) {
                 infoResult.setTextColor(Color.rgb(0, 153, 232));
                 imageView.setImageResource(R.drawable.ic_expressions_blue);
-            } else if (bmi_result < 111){
+            } else if (bmi_result < 35){
                 infoResult.setTextColor(Color.rgb(0, 174, 74));
                 imageView.setImageResource(R.drawable.ic_expressions_green);
-            } else if (bmi_result < 200) {
+            } else if (bmi_result < 50) {
                 infoResult.setTextColor(Color.rgb(224, 25, 43));
                 imageView.setImageResource(R.drawable.ic_expressions_red);
             } else {

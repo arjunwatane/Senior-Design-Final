@@ -62,9 +62,9 @@ public class GaugeView extends View {
 
 
     public static final float SCALE_POSITION = 0.015f;
-    public static final float SCALE_START_VALUE = 40.0f;
-    public static final float SCALE_END_VALUE = 140.0f;
-    public static final float SCALE_START_ANGLE = 90.0f;
+    public static final float SCALE_START_VALUE = 0.0f;
+    public static final float SCALE_END_VALUE = 50.0f;
+    public static final float SCALE_START_ANGLE = 90;
     public static final int SCALE_DIVISIONS = 10;
     public static final int SCALE_SUBDIVISIONS = 5;
 
